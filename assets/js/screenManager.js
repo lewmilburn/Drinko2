@@ -1,10 +1,13 @@
 DisplayScreen(0);
 
 setTimeout(function() {
+    Log('setTimeout','started',3);
     ShowScreen(0,1);
+    Log('setTimeout','ended',3);
 }, 0);
 
 function ShowScreen(from,to) {
+    Log('ShowScreen','started',3);
     DisplayScreen(to);
     let ResetButton = document.getElementById('ResetButton');
     if(ShowScreen !== 0 && ShowScreen !== 1) {
@@ -14,9 +17,11 @@ function ShowScreen(from,to) {
             ResetButton.classList.add('hidden');
         }
     }
+    Log('ShowScreen','ended',3);
 }
 
 function DisplayScreen(number) {
+    Log('DisplayScreen','started',3);
     let screen = document.getElementById('main');
     if (number === 0) {
         screen.innerHTML = `
@@ -80,5 +85,20 @@ function DisplayScreen(number) {
                 No
             </button>
         </div>`;
+    } else if (number === 4) {
+        screen.innerHTML = `
+        <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
+        <h1 class="text-header-lg mb-6" id="Message">
+        Game over
+        </h1>
+        <p class="text-body mb-6" id="Submessage">
+        It's done!
+        </p>
+        <br>
+        <a class="btn btn-blue" href="/">
+        Play again
+        </a>
+        </div>`;
     }
+    Log('DisplayScreen','ended',3);
 }
