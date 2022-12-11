@@ -1,3 +1,9 @@
-.nav {
-    @apply font-bold;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav {
+        @apply font-bold;
+    }
 }
