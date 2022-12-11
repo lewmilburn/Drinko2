@@ -2,6 +2,8 @@ let NextMessage;
 let NextSubmessage;
 let NextGreen;
 let NextRed;
+let NextGreenValue;
+let NextRedValue;
 
 function StartGame() {
     Log('StartGame','started',3);
@@ -50,19 +52,27 @@ function GetRandomQuestion() {
     let Type = GetNextType();
     if (Type === 0) {
         let TruthNumber = Math.floor(Math.random() * (Truths.length));
-        console.log('Type: ' + Type + ' - TruthNumber: '+TruthNumber);
+        Log('GetRandomQuestion','Type: ' + Type + ' - TruthNumber: '+TruthNumber,3);
+
         NextMessage = Truths[TruthNumber].Message;
         NextSubmessage = Truths[TruthNumber].Submessage;
-        NextRed = Truths[TruthNumber].Red;
         NextGreen = Truths[TruthNumber].Green;
+        NextRed = Truths[TruthNumber].Red;
+        NextGreenValue = Truths[TruthNumber].Green;
+        NextRedValue = Truths[TruthNumber].Red;
+
         Truths.splice(TruthNumber, 1);
     } else if (Type === 1) {
         let DareNumber = Math.floor(Math.random() * (Dares.length));
-        console.log('Type: ' + Type + ' - DareNumber: '+DareNumber);
+        Log('GetRandomQuestion','Type: ' + Type + ' - DareNumber: '+DareNumber,3);
+
         NextMessage = Dares[DareNumber].Message;
         NextSubmessage = Dares[DareNumber].Submessage;
-        NextRed = Dares[DareNumber].Red;
         NextGreen = Dares[DareNumber].Green;
+        NextRed = Dares[DareNumber].Red;
+        NextGreenValue = Dares[DareNumber].Green;
+        NextRedValue = Dares[DareNumber].Red;
+
         Dares.splice(DareNumber, 1);
     }
     console.log('Type: ' + Type);
@@ -84,6 +94,11 @@ function GetNextType() {
         Type = Math.floor(Math.random() * 2);
     }
     Log('GetNextType','ended',3);
+
+    if (Type === undefined) {
+        EndGame();
+        return;
+    }
 
     return Type;
 }

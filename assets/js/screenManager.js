@@ -36,14 +36,30 @@ function DisplayScreen(number) {
         </div>`;
     } else if (number === 1) {
         screen.innerHTML = `
-        <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-6 sm:my-12 md:my-24 lg:my-48 text-center">
+        <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-1 sm:my-2 md:my-4 lg:my-8 text-center">
             <h1 class="text-header-lg mb-6">
                 Drinko!²
-            </h1>
+        </h1>
+            <p class="text-body mb-1">
+                Welcome to Drinko!², the sequel to the much loved game Drinko!
+            </p>
             <p class="text-body mb-6">
-                Welcome to Drinko!², the sequel to the much loved Drinko!<br>
-                <br>
-                Do not refresh the page or use the browser's back button whilst playing, this will delete your game.
+            Do not refresh the page or use the browser's back button whilst playing, this will delete your game.
+            </p>
+            <p class="text-body mb-1">
+                <strong>Disclaimer</strong>
+            </p>
+            <p class="text-body mb-1">
+                This game is dirty and contains adult themes, don't play it with your parents.
+            </p>
+            <p class="text-body mb-1">
+                You must be 18+ to play.
+            </p>
+            <p class="text-body mb-1">
+                Consent is important, you can skip any round you're not comfortable with without penalty.
+            </p>
+            <p class="text-body mb-6">
+                This game will get you drunk. Always drink responsibly.
             </p>
             <button class="btn btn-green" onClick="ShowScreen(1,2);">
                 Let's go!
@@ -64,9 +80,22 @@ function DisplayScreen(number) {
             </div>
             <ul id="HomePlayerList"></ul>
             <br>
-            <button class="btn btn-green" onClick="LoadGame();">
-                Play
-            </button>
+            <div class="flex space-x-2">
+                <div class="flex-grow">&nbsp;</div>
+                <button class="btn btn-green" onClick="LoadGame('Lightweight');">
+                    Lightweight
+                </button>
+                <button class="btn btn-yellow" onClick="LoadGame('Dirty');">
+                    Dirty
+                </button>
+                <button class="btn btn-red" onClick="LoadGame('WTF');">
+                    WTF
+                </button>
+                <button class="btn btn-red" onClick="LoadGame('Hardcore');">
+                    Hardcore
+                </button>
+                <div class="flex-grow">&nbsp;</div>
+            </div>
         </div>`;
     } else if (number === 3) {
         screen.innerHTML = `

@@ -2,15 +2,16 @@ let Truths = [];
 let Dares = [];
 let Triggered = false;
 
-function LoadGame() {
+function LoadGame(mode) {
     Log('LoadGame','started',3);
-
-    fetch("https://drinko.co.uk/data/truths.json")
+    Log('LoadGame','Mode selected: '+mode,3);
+    console.log("https://drinko.co.uk/data/"+mode+"/truths.json");
+    fetch("https://drinko.co.uk/data/"+mode+"/truths.json")
     .then(response => response.json())
     .then((responseJson) => {
         LoadedTruths(responseJson);
     })
-    fetch("https://drinko.co.uk/data/dares.json")
+    fetch("https://drinko.co.uk/data/"+mode+"/dares.json")
     .then(response => response.json())
     .then((responseJson) => {
         LoadedDares(responseJson);
