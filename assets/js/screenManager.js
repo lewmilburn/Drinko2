@@ -6,6 +6,14 @@ setTimeout(function() {
 
 function ShowScreen(from,to) {
     DisplayScreen(to);
+    let ResetButton = document.getElementById('ResetButton');
+    if(ShowScreen !== 0 && ShowScreen !== 1) {
+        ResetButton.classList.remove('hidden');
+    } else {
+        if (!ResetButton.classList.contains('hidden')) {
+            ResetButton.classList.add('hidden');
+        }
+    }
 }
 
 function DisplayScreen(number) {
@@ -49,6 +57,7 @@ function DisplayScreen(number) {
                 <input id="HomeAddPlayer" class="input text-sm">
                 <button class="btn-sm btn-blue" onClick="AddPlayer();">Add</button>
             </div>
+            <ul id="HomePlayerList"></ul>
             <br>
             <button class="btn btn-green" onClick="ShowScreen(2,3);">
                 Play
