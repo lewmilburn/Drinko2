@@ -1,5 +1,6 @@
 let Truths = [];
 let Dares = [];
+let Triggered = false;
 
 function LoadGame() {
     Log('LoadGame','started',3);
@@ -24,7 +25,8 @@ function LoadedTruths(responseJson) {
     for(var i in responseJson)
         Truths.push(responseJson[i]);
 
-    if (Truths !== null && Dares !== null) {
+    if (Truths !== null && Dares !== null && Triggered === false) {
+        Triggered = true;
         ShowScreen(2,3);
         StartGame();
     }
@@ -37,7 +39,8 @@ function LoadedDares(responseJson) {
     for(var i in responseJson)
         Dares.push(responseJson[i]);
 
-    if (Truths !== null && Dares !== null) {
+    if (Truths !== null && Dares !== null && Triggered === false) {
+        Triggered = true;
         ShowScreen(2,3);
         StartGame();
     }
