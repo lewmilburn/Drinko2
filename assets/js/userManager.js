@@ -1,10 +1,14 @@
-let object = {};
+let Players = {};
 
 function AddPlayer() {
     let Player = document.getElementById('HomeAddPlayer').value;
 
     document.getElementById('HomeAddPlayer').value = "";
 
-    object[Player] = 0;
-    console.log(object);
+    Players[Player] = 0;
+    console.log(Players);
+}
+
+function GetPlayerScore(Player) {
+    console.log(Players[Player]);
 }
