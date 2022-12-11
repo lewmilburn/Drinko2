@@ -59,26 +59,25 @@ function DisplayScreen(number) {
             </div>
             <ul id="HomePlayerList"></ul>
             <br>
-            <button class="btn btn-green" onClick="ShowScreen(2,3);">
+            <button class="btn btn-green" onClick="LoadGame();">
                 Play
             </button>
         </div>`;
     } else if (number === 3) {
         screen.innerHTML = `
         <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
-        <h1 class="text-header-lg mb-6" id="Question">
-            Error 1
-        </h1>
-            <p class="text-body mb-6">
-                Who's playing?
-            </p>
-            <div class="mb-6">
-                <input id="HomeAddPlayer" class="input text-sm">
-                <button class="btn-sm btn-blue" onClick="AddPlayer();">Add</button>
-            </div>
+            <h1 class="text-header-lg mb-6" id="Message">
+                Error 1
+            </h1>
+                <p class="text-body mb-6" id="Submessage">
+                    Error 2
+                </p>
             <br>
-            <button class="btn btn-green" onClick="ShowScreen(2,3);">
-                Play
+            <button class="btn btn-green" onClick="Answer(1)">
+                Yes
+            </button>
+            <button class="btn btn-red" onClick="Answer(2)">
+                No
             </button>
         </div>`;
     }
