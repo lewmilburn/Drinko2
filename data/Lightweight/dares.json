@@ -1,8 +1,10 @@
 {
     "1": {
         "Message": "This is a test dare.",
-        "Submessage": "This is a test dare sub-message",
-        "Yes": 0,
-        "No": 0
+        "Submessage": "",
+        "Green": "Answered",
+        "Red": "Not answered",
+        "GreenValue": 0,
+        "RedValue": 1
     }
 }

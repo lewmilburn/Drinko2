@@ -104,14 +104,14 @@ function DisplayScreen(number) {
                 Error 1
             </h1>
                 <p class="text-body mb-6" id="Submessage">
-                    Error 2
+                    Error 1
                 </p>
             <br>
-            <button class="btn btn-green" onClick="Answer(1)">
-                Yes
+            <button id="Option1" class="btn btn-green" onClick="Answer(1)">
+                Error 1
             </button>
-            <button class="btn btn-red" onClick="Answer(2)">
-                No
+            <button id="Option2" class="btn btn-red" onClick="Answer(2)">
+                Error 1
             </button>
         </div>`;
     } else if (number === 4) {

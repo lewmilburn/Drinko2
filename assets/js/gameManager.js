@@ -1,9 +1,11 @@
 let NextMessage;
 let NextSubmessage;
-let NextGreen;
-let NextRed;
-let NextGreenValue;
-let NextRedValue;
+let NextOptionOne;
+let NextOptionOneColour;
+let NextOptionOneValue;
+let NextOptionTwo;
+let NextOptionTwoColour;
+let NextOptionTwoValue;
 
 function StartGame() {
     Log('StartGame','started',3);
@@ -32,8 +34,12 @@ function NextRound() {
 
     NextMessage = null;
     NextSubmessage = null;
-    NextGreen = null;
-    NextRed = null;
+    NextOptionOne = null;
+    NextOptionOneColour = null;
+    NextOptionOneValue = null;
+    NextOptionTwo = null;
+    NextOptionTwoColour = null;
+    NextOptionTwoValue = null;
 
     let Message = document.getElementById('Message');
     let Submessage = document.getElementById('Submessage');
@@ -42,8 +48,30 @@ function NextRound() {
 
     Message.innerHTML = NextMessage;
     Submessage.innerHTML = NextSubmessage;
+    SetOption('OptionOne', NextOptionOne, NextOptionOneColour);
+    SetOption('OptionTwo', NextOptionTwo, NextOptionOneColour);
 
     Log('NextRound','ended',3);
+}
+
+function SetOption(id, value, colour) {
+    let Option = document.getElementById(id);
+
+    Option.innerText = value;
+
+    if (colour === 'red') {
+        if (Option.classList.contains('btn-green')) { Option.classList.remove('btn-green'); }
+        if (Option.classList.contains('btn-blue')) { Option.classList.remove('btn-blue'); }
+        Option.classList.add('btn-red');
+    } else if (colour === 'green') {
+        if (Option.classList.contains('btn-red')) { Option.classList.remove('btn-red'); }
+        if (Option.classList.contains('btn-blue')) { Option.classList.remove('btn-blue'); }
+        Option.classList.add('btn-green');
+    } else if (colour === 'blue') {
+        if (Option.classList.contains('btn-red')) { Option.classList.remove('btn-red'); }
+        if (Option.classList.contains('btn-green')) { Option.classList.remove('btn-green'); }
+        Option.classList.add('btn-blue');
+    }
 }
 
 function GetRandomQuestion() {
@@ -56,10 +84,12 @@ function GetRandomQuestion() {
 
         NextMessage = Truths[TruthNumber].Message;
         NextSubmessage = Truths[TruthNumber].Submessage;
-        NextGreen = Truths[TruthNumber].Green;
-        NextRed = Truths[TruthNumber].Red;
-        NextGreenValue = Truths[TruthNumber].Green;
-        NextRedValue = Truths[TruthNumber].Red;
+        NextOptionOne = Truths[TruthNumber].OptionOne;
+        NextOptionTwo = Truths[TruthNumber].OptionTwo;
+        NextOptionOneValue = Truths[TruthNumber].OptionOneValue;
+        NextOptionTwoValue = Truths[TruthNumber].OptionTwoValue;
+        NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
+        NextOptionTwoColour = Truths[TruthNumber].OptionTwoColour;
 
         Truths.splice(TruthNumber, 1);
     } else if (Type === 1) {
@@ -68,10 +98,12 @@ function GetRandomQuestion() {
 
         NextMessage = Dares[DareNumber].Message;
         NextSubmessage = Dares[DareNumber].Submessage;
-        NextGreen = Dares[DareNumber].Green;
-        NextRed = Dares[DareNumber].Red;
-        NextGreenValue = Dares[DareNumber].Green;
-        NextRedValue = Dares[DareNumber].Red;
+        NextOptionOne = Dares[DareNumber].Green;
+        NextOptionTwo = Dares[DareNumber].Red;
+        NextOptionOneValue = Dares[DareNumber].OptionOneValue;
+        NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
+        NextOptionOneColour = Dares[DareNumber].OptionOneColour;
+        NextOptionTwoColour = Dares[DareNumber].OptionTwoColour;
 
         Dares.splice(DareNumber, 1);
     }

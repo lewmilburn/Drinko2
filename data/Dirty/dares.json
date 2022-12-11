@@ -1,8 +1,34 @@
 {
     "1": {
-        "Message": "This is a test dare.",
-        "Submessage": "This is a test dare sub-message",
-        "Yes": 0,
-        "No": 0
-    }
+        "Message": "Tell everyone how you lost your virginity.",
+        "Submessage": "Every. Little. Detail",
+        "Green": "Answered",
+        "Red": "Not answered",
+        "GreenValue": 1,
+        "RedValue": 2
+    },
+    "2": {
+        "Message": "What's your biggest turn-on?",
+        "Submessage": "The group will decide your fate.",
+        "Green": "That's hot",
+        "Red": "No it's not",
+        "GreenValue": 1,
+        "RedValue": 3
+    },
+    "3": {
+        "Message": "What's your biggest turn-off?",
+        "Submessage": "The group will decide your fate.",
+        "Green": "Yeah that's a turn-off",
+        "Red": "Nah that's sexy",
+        "GreenValue": 2,
+        "RedValue": 2
+    },
+    "4": {
+        "Message": "Have you ever faked an orgasm?",
+        "Submessage": "Why?",
+        "Green": "Yes",
+        "Red": "No",
+        "GreenValue": 2,
+        "RedValue": 2
+    },
 }
