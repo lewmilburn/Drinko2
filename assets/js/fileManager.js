@@ -15,7 +15,7 @@ function LoadGame() {
         LoadedDares(responseJson);
     })
 
-    if(debug){Log('LoadGame','ended',3);}
+    Log('LoadGame','ended',3);
 }
 
 function LoadedTruths(responseJson) {
