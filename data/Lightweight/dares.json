@@ -1,10 +1,122 @@
 {
     "1": {
-        "Message": "This is a test dare.",
+        "Message": "Lick a food or drink from {player}'s body",
+        "Submessage": "Did they enjoy it?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
+    },
+    "2": {
+        "Message": "Swap an item of clothing with another person",
+        "Submessage": "How's their fashion sense?",
+        "OptionOne": "It's good",
+        "OptionTwo": "It's shit",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "3": {
+        "Message": "Spank the person to your left.",
+        "Submessage": "RIP your bum",
+        "OptionOne": "Big slap ouch",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 1
+    },
+    "4": {
+        "Message": "Twerk.",
+        "Submessage": "Yuh get into it",
+        "OptionOne": "*twerks*",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "5": {
+        "Message": "Pick someone in the room and message someone on one of their dating apps.",
+        "Submessage": "If they reply by the end of the game everyone Drinko!",
+        "OptionOne": "Done it",
+        "OptionTwo": "Nope",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 2
+    },
+    "6": {
+        "Message": "Attempt to impersonate everyone in the room.",
+        "Submessage": "The group votes: were the impressions accurate?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
+    },
+    "7": {
+        "Message": "Serenade the person to your right.",
+        "Submessage": "How lovely.",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "8": {
+        "Message": "Do a shot",
         "Submessage": "",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 0,
-        "RedValue": 1
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
+    },
+    "9": {
+        "Message": "Lick someone's foot.",
+        "Submessage": "Did they like it?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 2
+    },
+    "10": {
+        "Message": "Tell a joke.",
+        "Submessage": "Whoever laughs takes your drinks, if nobody laughs you drink.",
+        "OptionOne": "Somebody laughed",
+        "OptionTwo": "Nobody laughed",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 3
+    },
+    "11": {
+        "Message": "You have 30 seconds to make {player} laugh.",
+        "Submessage": "If you succeed they drink, if you don't you drink.",
+        "OptionOne": "I made them laugh",
+        "OptionTwo": "They didn't laugh",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 3
+    },
+    "12": {
+        "Message": "Do push-ups with {player} on your back.",
+        "Submessage": "Could you do it?",
+        "OptionOne": "No I'm weak",
+        "OptionTwo": "Yeah I'm built different",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
     }
 }

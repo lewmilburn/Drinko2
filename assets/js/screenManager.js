@@ -88,10 +88,10 @@ function DisplayScreen(number) {
                 <button class="btn btn-yellow" onClick="LoadGame('Dirty');">
                     Dirty
                 </button>
-                <button class="btn btn-red" onClick="LoadGame('WTF');">
+                <button class="btn btn-red" onClick="alert('Coming soon...');">
                     WTF
                 </button>
-                <button class="btn btn-red" onClick="LoadGame('Hardcore');">
+                <button class="btn btn-red" onClick="alert('Coming soon...');">
                     Hardcore
                 </button>
                 <div class="flex-grow">&nbsp;</div>
@@ -100,12 +100,15 @@ function DisplayScreen(number) {
     } else if (number === 3) {
         screen.innerHTML = `
         <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
-            <h1 class="text-header-lg mb-6" id="Message">
+            <h1 class="text-header-lg mb-6" id="PlayerName">
                 Error 1
             </h1>
-                <p class="text-body mb-6" id="Submessage">
-                    Error 1
-                </p>
+            <h1 class="text-header mb-6" id="Message">
+                Error 1
+            </h1>
+            <p class="text-body mb-6" id="Submessage">
+                Error 1
+            </p>
             <br>
             <button id="OptionOne" class="btn btn-green" onClick="Answer(1)">
                 Error 1

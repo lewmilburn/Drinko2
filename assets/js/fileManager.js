@@ -4,19 +4,22 @@ let Triggered = false;
 
 function LoadGame(mode) {
     Log('LoadGame','started',3);
-    Log('LoadGame','Mode selected: '+mode,3);
-    console.log("https://drinko.co.uk/data/"+mode+"/truths.json");
-    fetch("https://drinko.co.uk/data/"+mode+"/truths.json")
-    .then(response => response.json())
-    .then((responseJson) => {
-        LoadedTruths(responseJson);
-    })
-    fetch("https://drinko.co.uk/data/"+mode+"/dares.json")
-    .then(response => response.json())
-    .then((responseJson) => {
-        LoadedDares(responseJson);
-    })
-
+    if (Object.keys(Players).length !== 0) {
+        Log('LoadGame','Mode selected: '+mode,3);
+        console.log("https://drinko.co.uk/data/"+mode+"/truths.json");
+        fetch("https://drinko.co.uk/data/"+mode+"/truths.json")
+        .then(response => response.json())
+        .then((responseJson) => {
+            LoadedTruths(responseJson);
+        })
+        fetch("https://drinko.co.uk/data/"+mode+"/dares.json")
+        .then(response => response.json())
+        .then((responseJson) => {
+            LoadedDares(responseJson);
+        })
+    } else {
+        alert('You need to add some players first!');
+    }
     Log('LoadGame','ended',3);
 }
 

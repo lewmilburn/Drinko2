@@ -6,17 +6,13 @@ let NextOptionOneValue;
 let NextOptionTwo;
 let NextOptionTwoColour;
 let NextOptionTwoValue;
+let NextPlayer;
+let NextPlayerID;
 
 function StartGame() {
     Log('StartGame','started',3);
 
-    let Message = document.getElementById('Message');
-    let Submessage = document.getElementById('Submessage');
-
-    GetRandomQuestion();
-
-    Message.innerHTML = NextMessage;
-    Submessage.innerHTML = NextSubmessage;
+    NextRound();
 
     Log('StartGame','ended',3);
 }
@@ -43,15 +39,24 @@ function NextRound() {
 
     let Message = document.getElementById('Message');
     let Submessage = document.getElementById('Submessage');
+    let PlayerName = document.getElementById('PlayerName');
 
     GetRandomQuestion();
+    GetRandomPlayer();
 
+    PlayerName.innerHTML = NextPlayer;
     Message.innerHTML = NextMessage;
     Submessage.innerHTML = NextSubmessage;
     SetOption('OptionOne', NextOptionOne, NextOptionOneColour);
     SetOption('OptionTwo', NextOptionTwo, NextOptionTwoColour);
 
     Log('NextRound','ended',3);
+}
+
+function GetRandomPlayer() {
+    let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
+    NextPlayer = Object.keys(Players)[PlayerID];
+    NextPlayerID = PlayerID;
 }
 
 function SetOption(id, value, colour) {

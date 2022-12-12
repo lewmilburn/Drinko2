@@ -580,6 +580,33 @@ video {
   }
 }
 
+.text-header {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .text-header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-header {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .text-header {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
 .text-body {
   font-size: 1.125rem;
   line-height: 1.75rem;

@@ -6,7 +6,7 @@
         "OptionTwo": "Not answered",
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
-        "OptionOneValue": 1,
+        "OptionOneValue": 2,
         "OptionTwoValue": 2
     },
     "2": {
@@ -16,7 +16,7 @@
         "OptionTwo": "No it's not",
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
-        "OptionOneValue": 1,
+        "OptionOneValue": 2,
         "OptionTwoValue": 3
     },
     "3": {
@@ -38,5 +38,95 @@
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
         "OptionTwoValue": 2
+    },
+    "5": {
+        "Message": "What is your favourite porn category?",
+        "Submessage": "The group will decide your fate.",
+        "OptionOne": "That's a hot one",
+        "OptionTwo": "Absolutely not",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "6": {
+        "Message": "Have you ever had sex blackout drunk?",
+        "Submessage": "With who?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 2
+    },
+    "7": {
+        "Message": "Have you ever fallen asleep during sex?",
+        "Submessage": "With who?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 2
+    },
+    "8": {
+        "Message": "Have you ever filmed a sex tape?",
+        "Submessage": "With who?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "blue",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 2
+    },
+    "9": {
+        "Message": "What’s the largest age gap between you and your sexual partners?",
+        "Submessage": "The group decides:",
+        "OptionOne": "Too big a gap",
+        "OptionTwo": "That's fine",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 2
+    },
+    "10": {
+        "Message": "Are you loud or silent in bed?",
+        "Submessage": "I'm not asking you, I'm asking the people you live with.",
+        "OptionOne": "Loud",
+        "OptionTwo": "Silent",
+        "OptionOneColour": "blue",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 3
+    },
+    "11": {
+        "Message": "What's the most embarrassing thing that's happened to you during sex?",
+        "Submessage": "Spill the entire tin of beans, then get another and spill that one too.",
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "12": {
+        "Message": "Have you ever farted during sex?",
+        "Submessage": "Stinky.",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 1
+    },
+    "13": {
+        "Message": "Have you ever fantasised about a teacher or boss?",
+        "Submessage": "Daddy or mummy issues?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 1
     }
 }

@@ -1,10 +1,112 @@
 {
     "1": {
-        "Message": "Tell everyone how you lost your virginity.",
-        "Submessage": "Every. Little. Detail",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 1,
-        "RedValue": 2
+        "Message": "{player} feeds you a small sweet or chocolate item.",
+        "Submessage": "Say thanks daddy whilst maintaining eye contact and don't laugh! Don't forget to add a little wink too",
+        "OptionOne": "I laughed",
+        "OptionTwo": "I didn't laugh",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 2
+    },
+    "2": {
+        "Message": "Smell everyone’s armpits and rank them from best to worst.",
+        "Submessage": "Click 'No' if you want to skip, click 'Yes' and make the pongiest pits take your drinks.",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "3": {
+        "Message": "Pick up the nearest object to you and demonstrate how to put on protection.",
+        "Submessage": "(You can use your imagination)",
+        "OptionOne": "Done it",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "4": {
+        "Message": "Pull a moonie.",
+        "Submessage": "We all want to see.",
+        "OptionOne": "My arse is out",
+        "OptionTwo": "Absolutely not",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "5": {
+        "Message": "Do a shot out of someone else's mouth.",
+        "Submessage": "Little baby bird.",
+        "OptionOne": "Tweet tweet",
+        "OptionTwo": "Fuck off",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 4
+    },
+    "6": {
+        "Message": "Hop around the room.",
+        "Submessage": "Did you fall?",
+        "OptionOne": "Yes, fuck you",
+        "OptionTwo": "No I'm a legend",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 5,
+        "OptionTwoValue": 2
+    },
+    "7": {
+        "Message": "For the next 3 rounds, you must finish everything you say with \"If you know what I mean\"",
+        "Submessage": "",
+        "OptionOne": "Yes, if you know what I mean",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
+    },
+    "8": {
+        "Message": "Lick {player}'s neck.",
+        "Submessage": "",
+        "OptionOne": "Done it",
+        "OptionTwo": "No thanks they're riddled",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
+    },
+    "9": {
+        "Message": "Suck the thumb of the person to your right.",
+        "Submessage": "",
+        "OptionOne": "Done it",
+        "OptionTwo": "No thanks they're riddled",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "10": {
+        "Message": "Lick the person across from you's belly button.",
+        "Submessage": "",
+        "OptionOne": "Done it",
+        "OptionTwo": "No thanks they've got belly button fluff",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "11": {
+        "Message": "Confess your love to {player}, even if you don't actually love them.",
+        "Submessage": "Whoever laughs drinks",
+        "OptionOne": "Done",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
     }
 }
