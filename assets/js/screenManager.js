@@ -55,11 +55,8 @@ function DisplayScreen(number) {
             <p class="text-body mb-1">
                 You must be 18+ to play.
             </p>
-            <p class="text-body mb-1">
-                Consent is important, you can skip any round you're not comfortable with without penalty.
-            </p>
             <p class="text-body mb-6">
-                This game will get you drunk. Always drink responsibly.
+                This game will get you drunk. Always drink responsibly. When the fun stops, stop.
             </p>
             <button class="btn btn-green" onClick="ShowScreen(1,2);">
                 Let's go!
