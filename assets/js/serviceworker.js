@@ -27,7 +27,15 @@ const PRECACHE_URLS = [
     '/assets/js/gameManager.js',
     '/assets/js/logger.js',
     '/assets/js/screenManager.js',
-    '/assets/js/userManager.js'
+    '/assets/js/userManager.js',
+    '/data/Lightweight/truths.json',
+    '/data/Lightweight/dares.json',
+    '/data/Dirty/truths.json',
+    '/data/Dirty/dares.json',
+    '/data/WTF/truths.json',
+    '/data/WTF/dares.json',
+    '/data/Hardcore/truths.json',
+    '/data/Hardcore/dares.json'
 ];
 
 // The install handler takes care of precaching the resources we always need.
