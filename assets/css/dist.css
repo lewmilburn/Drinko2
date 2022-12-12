@@ -903,6 +903,18 @@ video {
   left: -0.25rem;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
