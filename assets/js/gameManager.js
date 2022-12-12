@@ -11,6 +11,8 @@ let NextPlayerID;
 
 function StartGame() {
     Log('StartGame','started',3);
+    
+    ShowScreen(6,3);
 
     NextRound();
 

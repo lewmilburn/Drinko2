@@ -153,6 +153,16 @@ function DisplayScreen(number) {
         Next
         </button>
         </div>`;
+    } else if (number === 6) {
+        screen.innerHTML = `
+        <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
+        <h1 class="text-header-lg mb-6">
+        Loading...
+        </h1>
+        <p class="text-header mb-6">
+        Please wait.
+        </p>
+        </div>`;
     }
     Log('DisplayScreen','ended',3);
 }

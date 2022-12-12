@@ -4,6 +4,7 @@ let Triggered = false;
 
 function LoadGame(mode) {
     Log('LoadGame','started',3);
+    ShowScreen(2,6);
     if (Object.keys(Players).length > 1) {
         Log('LoadGame','Mode selected: '+mode,3);
         console.log("https://drinko.co.uk/data/"+mode+"/truths.json");
