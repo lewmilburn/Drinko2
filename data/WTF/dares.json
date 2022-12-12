@@ -1,8 +1,12 @@
 {
     "1": {
-        "Message": "This is a test dare.",
-        "Submessage": "This is a test dare sub-message",
-        "Yes": 0,
-        "No": 0
+        "Message": "This is a test dare",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 3
     }
 }
