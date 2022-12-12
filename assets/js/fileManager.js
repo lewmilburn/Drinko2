@@ -4,7 +4,7 @@ let Triggered = false;
 
 function LoadGame(mode) {
     Log('LoadGame','started',3);
-    if (Object.keys(Players).length !== 0) {
+    if (Object.keys(Players).length > 1) {
         Log('LoadGame','Mode selected: '+mode,3);
         console.log("https://drinko.co.uk/data/"+mode+"/truths.json");
         fetch("https://drinko.co.uk/data/"+mode+"/truths.json")
