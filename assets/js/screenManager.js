@@ -88,7 +88,7 @@ function DisplayScreen(number) {
                 <button class="btn btn-yellow" onClick="LoadGame('Dirty');">
                     Dirty
                 </button>
-                <button class="btn btn-red" onClick="LoadGame('WTF');">
+                <button class="btn btn-red" onClick="alert('Coming soon...');">
                     WTF
                 </button>
                 <button class="btn btn-red" onClick="alert('Coming soon...');">
