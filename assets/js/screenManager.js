@@ -4,7 +4,7 @@ setTimeout(function() {
     Log('setTimeout','started',3);
     ShowScreen(0,1);
     Log('setTimeout','ended',3);
-}, 0);
+}, 2000);
 
 function ShowScreen(from,to) {
     Log('ShowScreen','started',3);
@@ -29,9 +29,17 @@ function DisplayScreen(number) {
             <h1 class="text-header-lg mb-6">
                 Drinko!²
             </h1>
-            <img src="https://brand.lmwn.co.uk/lewismilburn/logo-light.png" class="w-1/4 mx-auto mb-2">
-            <p class="text-body mb-6">
-                Made by Lewis Milburn
+            <img src="https://brand.lmwn.co.uk/lewismilburn/logo-light.png" class="w-1/4 mx-auto mb-24">
+            <div class="flex space-x-4 mb-2">
+                <div class="flex-grow">&nbsp;</div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" class="w-16 mb-2">
+                <img src="https://www.jetbrains.com/_assets/www/fleet/inc/overview-content/img/fleet-logo.65f4a04c59fc3ba93bb5e181050891c5.png" class="w-16 mb-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" class="w-16 mb-2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cloudflare_Logo.png/480px-Cloudflare_Logo.png" class="w-16 mb-2">
+                <div class="flex-grow">&nbsp;</div>
+            </div>
+            <p>
+                Made with Tailwind, Fleet, GitHub, and CloudFlare.
             </p>
         </div>`;
     } else if (number === 1) {

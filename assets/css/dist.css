@@ -968,6 +968,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1074,6 +1078,10 @@ video {
 
 .w-1\/4 {
   width: 25%;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .flex-shrink {
@@ -1562,6 +1570,12 @@ video {
 
 .justify-items-stretch {
   justify-items: stretch;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
