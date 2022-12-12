@@ -19,11 +19,7 @@ installApp.addEventListener('click', async () => {
     }
 });
 
-function showInstallPromotion() {
-    document.getElementById('alert-install-prompt').classList.remove('hidden');
-}
-
-async function Install() {
+async function InstallPWA() {
     const promptEvent = window.deferredPrompt;
     if (!promptEvent) {
         return;
