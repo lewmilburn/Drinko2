@@ -9,10 +9,10 @@
 
 /* Text Sizes */
 .text-header-lg {
-    @apply text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold;
+    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold;
 }
 .text-header {
-    @apply text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold;
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
 }
 .text-body {
     @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
