@@ -90,21 +90,19 @@ function DisplayScreen(number) {
             </div>
             <ul id="HomePlayerList"></ul>
             <br>
-            <div class="flex space-x-2">
-                <div class="flex-grow">&nbsp;</div>
-                <button class="btn btn-green" onClick="LoadGame('Lightweight');">
+            <div class="snap-x">
+                <button class="btn-lg btn-green" onClick="LoadGame('Lightweight');">
                     Lightweight
                 </button>
-                <button class="btn btn-yellow" onClick="LoadGame('Dirty');">
+                <button class="btn-lg btn-yellow" onClick="LoadGame('Dirty');">
                     Dirty
                 </button>
-                <button class="btn btn-red" onClick="alert('Coming soon...');">
+                <button class="btn-lg btn-red" onClick="alert('Coming soon...');">
                     WTF
                 </button>
-                <button class="btn btn-red" onClick="alert('Coming soon...');">
+                <button class="btn-lg btn-red" onClick="alert('Coming soon...');">
                     Hardcore
                 </button>
-                <div class="flex-grow">&nbsp;</div>
             </div>
         </div>`;
     } else if (number === 3) {

@@ -22,6 +22,9 @@
 }
 
 /* Buttons */
+.btn-lg {
+    @apply px-8 py-10 text-header rounded-md shadow-lg hover:shadow-xl transition duration-200
+}
 .btn {
     @apply px-6 py-4 text-body rounded-md shadow-lg hover:shadow-xl transition duration-200
 }
