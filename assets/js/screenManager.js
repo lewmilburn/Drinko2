@@ -91,16 +91,16 @@ function DisplayScreen(number) {
             <ul id="HomePlayerList"></ul>
             <br>
             <div class="snap-x snap-mandatory">
-                <button class="btn-lg btn-green snap-center" onClick="LoadGame('Lightweight');">
+                <button class="btn-mode-select btn-green snap-center" onClick="LoadGame('Lightweight');">
                     Lightweight
                 </button>
-                <button class="btn-lg btn-yellow snap-center" onClick="LoadGame('Dirty');">
+                <button class="btn-mode-select btn-yellow snap-center" onClick="LoadGame('Dirty');">
                     Dirty
                 </button>
-                <button class="btn-lg btn-red snap-center" onClick="alert('Coming soon...');">
+                <button class="btn-mode-select btn-red snap-center" onClick="alert('Coming soon...');">
                     WTF
                 </button>
-                <button class="btn-lg btn-red snap-center" onClick="alert('Coming soon...');">
+                <button class="btn-mode-select btn-red snap-center" onClick="alert('Coming soon...');">
                     Hardcore
                 </button>
             </div>
