@@ -46,7 +46,7 @@ function NextRound() {
 
     Round = Round + 1;
 
-    if (MaxRounds === -1) {
+    if (MaxRounds === '-1') {
         RoundCounter.innerText = 'Round ' + Round;
         LoadNextRound();
     } else if (MaxRounds >= Round) {
