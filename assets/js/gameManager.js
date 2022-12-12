@@ -49,7 +49,7 @@ function NextRound() {
     Message.innerHTML = NextMessage;
     Submessage.innerHTML = NextSubmessage;
     SetOption('OptionOne', NextOptionOne, NextOptionOneColour);
-    SetOption('OptionTwo', NextOptionTwo, NextOptionOneColour);
+    SetOption('OptionTwo', NextOptionTwo, NextOptionTwoColour);
 
     Log('NextRound','ended',3);
 }
@@ -57,7 +57,7 @@ function NextRound() {
 function SetOption(id, value, colour) {
     let Option = document.getElementById(id);
 
-    Option.innerText = value;
+    Option.innerText = value + "";
 
     if (colour === 'red') {
         if (Option.classList.contains('btn-green')) { Option.classList.remove('btn-green'); }
