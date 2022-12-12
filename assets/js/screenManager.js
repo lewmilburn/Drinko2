@@ -107,10 +107,10 @@ function DisplayScreen(number) {
                     Error 1
                 </p>
             <br>
-            <button id="Option1" class="btn btn-green" onClick="Answer(1)">
+            <button id="OptionOne" class="btn btn-green" onClick="Answer(1)">
                 Error 1
             </button>
-            <button id="Option2" class="btn btn-red" onClick="Answer(2)">
+            <button id="OptionTwo" class="btn btn-red" onClick="Answer(2)">
                 Error 1
             </button>
         </div>`;
