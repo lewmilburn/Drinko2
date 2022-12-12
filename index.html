@@ -26,20 +26,12 @@
     <body class="dark:bg-neutral-800 dark:text-white">
 
     <!--
-    <div id="alert-install-prompt" class="bg-blue-500 px-2 py-1">
+    <div id="alert-install-prompt" class="bg-blue-300 px-2 py-1">
         Download Drinko!<sup>2</sup> on your device. <button id="InstallPWAButton" class="btn-sm btn-blue">Install</button>
     </div>
     -->
 
-    <noscript>
-        <div class="bg-red-500 px-2 py-1">
-            <strong>You must enable JavaScript to play Drinko!<sup>2</sup>.</strong>
-            This game will not work without JavaScript.
-            <a href="https://enable-javascript.com" class="btn-sm btn-red" target="_blank">Learn more.</a>
-        </div>
-    </noscript>
-
-    <div id="alert-error" class="bg-red-500 px-2 py-1 hidden"></div>
+    <div id="alert-error" class="bg-red-400 dark:bg-red-600 px-2 py-1 hidden"></div>
 
         <nav id="nav" class="dark:bg-neutral-900 bg-neutral-200 flex px-2 py-1">
             <div>
@@ -49,6 +41,19 @@
             </div>
             <a href="/" class="hidden" id="ResetButton">Reset</a>
         </nav>
+
+        <noscript>
+            <div class="bg-red-400 dark:bg-red-600 px-4 py-2 mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
+                <strong>You must enable JavaScript to play Drinko!<sup>2</sup>.</strong><br>
+                Drinko!<sup>2</sup> uses JavaScript to run the game.
+                Please enable JavaScript if you would like to play, the game will not work without it.<br>
+                <br>
+                <a href="https://enable-javascript.com" class="btn-sm btn-red" target="_blank">Learn how to enable JavaScript.</a><br>
+                <br>
+                If you're worried about Security, our source code is avaliable on GitHub at
+                <a href="https://github.com/lewmilburn/Drinko2" class="btn-sm btn-red">lewmilburn/Drinko2</a>.
+            </div>
+        </noscript>
 
         <main id="main" class="mt-6 sm:mt-0">
             
