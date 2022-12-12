@@ -8,7 +8,6 @@ function AddPlayer() {
     document.getElementById('HomeAddPlayer').value = "";
 
     Players[Player] = 0;
-    console.log(Players);
 
     let List = document.getElementById("HomePlayerList");
     if (List.innerHTML === null) {
@@ -26,4 +25,12 @@ function GetPlayerScore(Player) {
     console.log(Players[Player]);
 
     Log('GetPlayerScore','ended',3);
+}
+
+function LeaderboardAdd(Player, Amount) {
+    Log('LeaderboardAdd','started',3);
+
+    Players[Player] += Amount;
+
+    Log('LeaderboardAdd','started',3);
 }

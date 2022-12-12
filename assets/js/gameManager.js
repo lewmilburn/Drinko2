@@ -22,6 +22,17 @@ function EndGame() {
 
     ShowScreen(3,4);
 
+    let List = document.getElementById("Leaderboard");
+
+    Object.keys(Players).forEach(function(key) {
+        let PlayerItem = Players[key];
+        if (List.innerHTML === null) {
+            List.innerHTML = '<li>' + key + ' ' + PlayerItem + '</li>';
+        } else {
+            List.innerHTML = List.innerHTML + '<li>' + key + ' ' + PlayerItem + '</li>';
+        }
+    });
+
     Log('EndGame','ended',3);
 }
 
@@ -186,6 +197,7 @@ function Answer(Number) {
             return;
         } else {
             Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
+            LeaderboardAdd(NextPlayer, NextOptionOneValue);
         }
     } else if (Number === 2) {
         if (NextOptionTwoValue === 0) {
@@ -193,6 +205,7 @@ function Answer(Number) {
             return;
         } else {
             Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
+            LeaderboardAdd(NextPlayer, NextOptionTwoValue);
         }
     }
     Log('Answer','ended',3);

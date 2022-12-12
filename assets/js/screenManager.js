@@ -88,7 +88,7 @@ function DisplayScreen(number) {
                 <button class="btn btn-yellow" onClick="LoadGame('Dirty');">
                     Dirty
                 </button>
-                <button class="btn btn-red" onClick="alert('Coming soon...');">
+                <button class="btn btn-red" onClick="LoadGame('WTF');">
                     WTF
                 </button>
                 <button class="btn btn-red" onClick="alert('Coming soon...');">
@@ -123,9 +123,7 @@ function DisplayScreen(number) {
         <h1 class="text-header-lg mb-6" id="Message">
         Game over
         </h1>
-        <p class="text-body mb-6" id="Submessage">
-        It's done!
-        </p>
+        <ul class="text-body mb-6" id="Leaderboard"></ul>
         <br>
         <a class="btn btn-blue" href="/">
         Play again
