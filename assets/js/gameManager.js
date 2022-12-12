@@ -8,6 +8,7 @@ let NextOptionTwoColour;
 let NextOptionTwoValue;
 let NextPlayer;
 let NextPlayerID;
+let Round = 1;
 
 function StartGame() {
     Log('StartGame','started',3);
@@ -41,7 +42,26 @@ function EndGame() {
 function NextRound() {
     Log('NextRound','started',3);
 
-    ShowScreen(5, 3)
+    let RoundCounter = document.getElementById('RoundCounter');
+
+    Round = Round + 1;
+
+    if (MaxRounds === -1) {
+        RoundCounter.innerText = Round;
+        LoadNextRound();
+    } else if (MaxRounds <= Round) {
+        RoundCounter.innerText = Round;
+        LoadNextRound();
+    } else {
+        EndGame();
+    }
+
+    Log('NextRound','ended',3);
+}
+
+function LoadNextRound() {
+    Log('LoadNextRound','started',3);
+    ShowScreen(5, 3);
 
     NextMessage = null;
     NextSubmessage = null;
@@ -65,8 +85,7 @@ function NextRound() {
 
     SetOption('OptionOne', NextOptionOne, NextOptionOneColour);
     SetOption('OptionTwo', NextOptionTwo, NextOptionTwoColour);
-
-    Log('NextRound','ended',3);
+    Log('LoadNextRound','ended',3);
 }
 
 function GetRandomPlayer() {

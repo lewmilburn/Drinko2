@@ -1,12 +1,16 @@
 let Truths = [];
 let Dares = [];
 let Triggered = false;
+let MaxRounds;
 
 function LoadGame(mode) {
     Log('LoadGame','started',3);
     if (Object.keys(Players).length > 1) {
         Log('LoadGame','Mode selected: '+mode,3);
         ShowScreen(2,6);
+
+        MaxRounds = document.getElementById('HomeSelectRounds').value;
+
         fetch("/data/"+mode+"/truths.json")
         .then(response => response.json())
         .then((responseJson) => {
