@@ -29,7 +29,8 @@ function DisplayScreen(number) {
             <h1 class="text-header-lg mb-6">
                 Drinko!²
             </h1>
-            <img src="https://brand.lmwn.co.uk/lewismilburn/logo-light.png" class="w-1/4 mx-auto mb-24">
+            <img src="https://brand.lmwn.co.uk/lewismilburn/logo-light.png" class="hidden dark:block w-1/4 mx-auto mb-24">
+            <img src="https://brand.lmwn.co.uk/lewismilburn/logo-dark.png" class="block dark:hidden w-1/4 mx-auto mb-24">
             <div class="flex space-x-4 mb-2">
                 <div class="flex-grow">&nbsp;</div>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" class="w-16 mb-2">
