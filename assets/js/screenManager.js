@@ -23,10 +23,19 @@ function ShowScreen(from,to) {
             ResetButton.classList.remove('hidden');
         }
         if (!ProgressBar.classList.contains('hidden')) {
+            ProgressBar.style.width = ProgressBarProgress();
             ProgressBar.classList.remove('hidden');
         }
     }
     Log('ShowScreen','ended',3);
+}
+
+function ProgressBarProgress() {
+    if (MaxRounds === -1) {
+
+    } else {
+        return (100 * Round) / MaxRounds;
+    }
 }
 
 function DisplayScreen(number) {
