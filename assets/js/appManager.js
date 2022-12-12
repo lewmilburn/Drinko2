@@ -2,13 +2,14 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register("/assets/js/serviceworker.js");
 }
 
-
 let deferredPrompt;
+
 window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
 });
 
-const installApp = document.getElementById('InstallPWA');
+const installApp = document.getElementById('InstallPWAButton');
+
 installApp.addEventListener('click', async () => {
     if (deferredPrompt !== null) {
         deferredPrompt.prompt();
