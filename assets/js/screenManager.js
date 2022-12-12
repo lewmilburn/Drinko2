@@ -32,7 +32,7 @@ function ShowScreen(from,to) {
 
 function ProgressBarProgress() {
     if (MaxRounds === -1) {
-
+        return 0;
     } else {
         return (100 * Round) / MaxRounds;
     }
