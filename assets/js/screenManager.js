@@ -69,8 +69,9 @@ function DisplayScreen(number) {
             </p>
             <button class="btn btn-green" onClick="ShowScreen(1,2);">
                 Let's go!
-            </button>
+        </button>
             <span class="absolute bottom-0 left-0">Development build. This may contain bugs. Drinko!² is a work in progress.</span>
+            <span class="absolute bottom-0 left-0 right-0">V2.0-preview</span>
             <a href="https://lewmilburn.github.io/Drinko" class="absolute bottom-0 right-0 text-center underline">Play the original Drinko!</a>
         </div>`;
     } else if (number === 2) {
