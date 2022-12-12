@@ -2,33 +2,41 @@
     "1": {
         "Message": "Tell everyone how you lost your virginity.",
         "Submessage": "Every. Little. Detail",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 1,
-        "RedValue": 2
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     },
     "2": {
         "Message": "What's your biggest turn-on?",
         "Submessage": "The group will decide your fate.",
-        "Green": "That's hot",
-        "Red": "No it's not",
-        "GreenValue": 1,
-        "RedValue": 3
+        "OptionOne": "That's hot",
+        "OptionTwo": "No it's not",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
     },
-        "3": {
+    "3": {
         "Message": "What's your biggest turn-off?",
         "Submessage": "The group will decide your fate.",
-        "Green": "Yeah that's a turn-off",
-        "Red": "Nah that's sexy",
-        "GreenValue": 2,
-        "RedValue": 2
+        "OptionOne": "Yeah that's a turn-off",
+        "OptionTwo": "Nah that's sexy",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 2
     },
-        "4": {
+    "4": {
         "Message": "Have you ever faked an orgasm?",
         "Submessage": "Why?",
-        "Green": "Yes",
-        "Red": "No",
-        "GreenValue": 2,
-        "RedValue": 2
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 2
     }
 }

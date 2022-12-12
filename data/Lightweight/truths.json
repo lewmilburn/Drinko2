@@ -2,97 +2,121 @@
     "1": {
         "Message": "If you could swap lives with anyone in the room, who would it be and why?",
         "Submessage": "",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 0,
-        "RedValue": 1
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 1
     },
     "2": {
         "Message": "Who do you think is the celebrity of the group?",
         "Submessage": "Explain why.",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 0,
-        "RedValue": 1
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 1
     },
     "3": {
         "Message": "Hands or feet?",
         "Submessage": "Explain why.",
-        "Green": "Hands",
-        "Red": "Feet",
-        "GreenValue": 1,
-        "RedValue": 2
+        "OptionOne": "Hands",
+        "OptionTwo": "Feet",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     },
     "4": {
         "Message": "What is the weirdest thing you have ever done in front of the mirror?",
         "Submessage": "Then the group votes.",
-        "Green": "It's not weird",
-        "Red": "It's weird",
-        "GreenValue": 0,
-        "RedValue": 1
+        "OptionOne": "It's not weird",
+        "OptionTwo": "It's weird",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     },
     "5": {
         "Message": "If you farted in the elevator, would you blame someone else or say excuse me?",
         "Submessage": "You dirty buggar.",
-        "Green": "Say excuse me",
-        "Red": "Blame someone else",
-        "GreenValue": 1,
-        "RedValue": 2
+        "OptionOne": "Say excuse me",
+        "OptionTwo": "Blame someone else",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     },
     "6": {
         "Message": "Do you ever want to get married?",
         "Submessage": "",
-        "Green": "Yes",
-        "Red": "No",
-        "GreenValue": 0,
-        "RedValue": 0
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 0
     },
     "7": {
         "Message": "Do you want to have kids?",
         "Submessage": "",
-        "Green": "Yes",
-        "Red": "No",
-        "GreenValue": 0,
-        "RedValue": 0
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 0
     },
     "8": {
         "Message": "Describe your dream date.",
         "Submessage": "Then the group votes.",
-        "Green": "It's cute",
-        "Red": "It's lame",
-        "GreenValue": 0,
-        "RedValue": 1
+        "OptionOne": "It's cute",
+        "OptionTwo": "It's lame",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 1
     },
     "9": {
         "Message": "What's your favourite alcohol?",
         "Submessage": "Who agrees?",
-        "Green": "Majority agrees",
-        "Red": "Majority disagrees",
-        "GreenValue": 1,
-        "RedValue": 2
+        "OptionOne": "Majority agrees",
+        "OptionTwo": "Majority disagrees",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     },
     "10": {
         "Message": "What's your guilty pleasure film?",
         "Submessage": "",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 0,
-        "RedValue": 1
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 1
     },
     "11": {
         "Message": "Do you pee in the shower?",
         "Submessage": "",
-        "Green": "Yes",
-        "Red": "No",
-        "GreenValue": 1,
-        "RedValue": 2
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     },
     "12": {
         "Message": "What is your favourite flavour pie, pasty, or slice?",
         "Submessage": "",
-        "Green": "Answered",
-        "Red": "Not answered",
-        "GreenValue": 1,
-        "RedValue": 2
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
     }
 }
