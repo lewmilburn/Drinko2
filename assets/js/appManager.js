@@ -1,3 +1,8 @@
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/assets/js/serviceworker.js");
+}
+
+
 // Initialize deferredPrompt for use later to show browser install prompt.
 let deferredPrompt;
 
