@@ -92,7 +92,10 @@ function DisplayScreen(number) {
             <br>
             <select id="HomeSelectRounds" class="input">
                 <option value="-1" selected>Max Rounds</option>
+                <option value="-1" selected>No Limit</option>
                 <option value="10">10 Rounds</option>
+                <option value="10">25 Rounds</option>
+                <option value="10">50 Rounds</option>
             </select>
             <div class="snap-x snap-mandatory">
                 <button class="btn-mode-select btn-green snap-center" onClick="LoadGame('Lightweight');">

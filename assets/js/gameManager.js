@@ -47,10 +47,10 @@ function NextRound() {
     Round = Round + 1;
 
     if (MaxRounds === -1) {
-        RoundCounter.innerText = Round;
+        RoundCounter.innerText = 'Round ' + Round;
         LoadNextRound();
     } else if (MaxRounds <= Round) {
-        RoundCounter.innerText = Round;
+        RoundCounter.innerText = 'Round ' + Round + '/' + MaxRounds;
         LoadNextRound();
     } else {
         EndGame();
