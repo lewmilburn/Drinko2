@@ -7,13 +7,12 @@ function LoadGame(mode) {
     ShowScreen(2,6);
     if (Object.keys(Players).length > 1) {
         Log('LoadGame','Mode selected: '+mode,3);
-        console.log("https://drinko.co.uk/data/"+mode+"/truths.json");
-        fetch("https://drinko.co.uk/data/"+mode+"/truths.json")
+        fetch("/data/"+mode+"/truths.json")
         .then(response => response.json())
         .then((responseJson) => {
             LoadedTruths(responseJson);
         })
-        fetch("https://drinko.co.uk/data/"+mode+"/dares.json")
+        fetch("/data/"+mode+"/dares.json")
         .then(response => response.json())
         .then((responseJson) => {
             LoadedDares(responseJson);
