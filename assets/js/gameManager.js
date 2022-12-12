@@ -47,6 +47,7 @@ function NextRound() {
     PlayerName.innerHTML = NextPlayer;
     Message.innerHTML = NextMessage;
     Submessage.innerHTML = NextSubmessage;
+
     SetOption('OptionOne', NextOptionOne, NextOptionOneColour);
     SetOption('OptionTwo', NextOptionTwo, NextOptionTwoColour);
 
@@ -82,39 +83,53 @@ function SetOption(id, value, colour) {
 function GetRandomQuestion() {
     Log('GetRandomQuestion','started',3);
 
+    let ReplacePlayer = GetRandomPlayer();
+
     let Type = GetNextType();
     if (Type === 0) {
         let TruthNumber = Math.floor(Math.random() * (Truths.length));
         Log('GetRandomQuestion','Type: ' + Type + ' - TruthNumber: '+TruthNumber,3);
 
-        NextMessage = Truths[TruthNumber].Message;
-        NextSubmessage = Truths[TruthNumber].Submessage;
-        NextOptionOne = Truths[TruthNumber].OptionOne;
-        NextOptionTwo = Truths[TruthNumber].OptionTwo;
-        NextOptionOneValue = Truths[TruthNumber].OptionOneValue;
-        NextOptionTwoValue = Truths[TruthNumber].OptionTwoValue;
-        NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
-        NextOptionTwoColour = Truths[TruthNumber].OptionTwoColour;
+        NextMessage = Replace(Truths[TruthNumber].Message, ReplacePlayer);
+        NextSubmessage = Replace(Truths[TruthNumber].Submessage, ReplacePlayer);
+        NextOptionOne = Replace(Truths[TruthNumber].OptionOne, ReplacePlayer);
+        NextOptionTwo = Replace(Truths[TruthNumber].OptionTwo, ReplacePlayer);
+        NextOptionOneValue = Replace(Truths[TruthNumber].OptionOneValue, ReplacePlayer);
+        NextOptionTwoValue = Replace(Truths[TruthNumber].OptionTwoValue, ReplacePlayer);
+        NextOptionOneColour = Replace(Truths[TruthNumber].OptionOneColour, ReplacePlayer);
+        NextOptionTwoColour = Replace(Truths[TruthNumber].OptionTwoColour, ReplacePlayer);
 
         Truths.splice(TruthNumber, 1);
     } else if (Type === 1) {
         let DareNumber = Math.floor(Math.random() * (Dares.length));
         Log('GetRandomQuestion','Type: ' + Type + ' - DareNumber: '+DareNumber,3);
 
-        NextMessage = Dares[DareNumber].Message;
-        NextSubmessage = Dares[DareNumber].Submessage;
-        NextOptionOne = Dares[DareNumber].Green;
-        NextOptionTwo = Dares[DareNumber].Red;
-        NextOptionOneValue = Dares[DareNumber].OptionOneValue;
-        NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
-        NextOptionOneColour = Dares[DareNumber].OptionOneColour;
-        NextOptionTwoColour = Dares[DareNumber].OptionTwoColour;
+        NextMessage = Replace(Dares[DareNumber].Message, ReplacePlayer);
+        NextSubmessage = Replace(Dares[DareNumber].Submessage, ReplacePlayer);
+        NextOptionOne = Replace(Dares[DareNumber].OptionOne, ReplacePlayer);
+        NextOptionTwo = Replace(Dares[DareNumber].OptionTwo, ReplacePlayer);
+        NextOptionOneValue = Replace(Dares[DareNumber].OptionOneValue, ReplacePlayer);
+        NextOptionTwoValue = Replace(Dares[DareNumber].OptionTwoValue, ReplacePlayer);
+        NextOptionOneColour = Replace(Dares[DareNumber].OptionOneColour, ReplacePlayer);
+        NextOptionTwoColour = Replace(Dares[DareNumber].OptionTwoColour, ReplacePlayer);
 
         Dares.splice(DareNumber, 1);
     }
     console.log('Type: ' + Type);
 
     Log('GetRandomQuestion','ended',3);
+}
+
+function Replace(Subject,Replacement) {
+    Log('Replace','started',3);
+
+    if (Subject.includes('{player}')) {
+        Subject.replace('{player}', Replacement)
+    }
+
+    Log('Replace','ended',3);
+
+    return Subject;
 }
 
 function GetNextType() {
