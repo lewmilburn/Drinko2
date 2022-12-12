@@ -8,7 +8,7 @@ let NextOptionTwoColour;
 let NextOptionTwoValue;
 let NextPlayer;
 let NextPlayerID;
-let Round = 1;
+let Round = 0;
 
 function StartGame() {
     Log('StartGame','started',3);
@@ -49,7 +49,7 @@ function NextRound() {
     if (MaxRounds === -1) {
         RoundCounter.innerText = 'Round ' + Round;
         LoadNextRound();
-    } else if (MaxRounds <= Round) {
+    } else if (MaxRounds >= Round) {
         RoundCounter.innerText = 'Round ' + Round + '/' + MaxRounds;
         LoadNextRound();
     } else {
