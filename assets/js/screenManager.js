@@ -10,13 +10,20 @@ function ShowScreen(from,to) {
     Log('ShowScreen','started',3);
     DisplayScreen(to);
     let ResetButton = document.getElementById('ResetButton');
+    let ProgressBar = document.getElementById('ProgressBar');
     if(ShowScreen === 0 || ShowScreen === 1) {
         if (!ResetButton.classList.contains('hidden')) {
             ResetButton.classList.add('hidden');
         }
+        if (!ProgressBar.classList.contains('hidden')) {
+            ProgressBar.classList.add('hidden');
+        }
     } else {
         if (!ResetButton.classList.contains('hidden')) {
             ResetButton.classList.remove('hidden');
+        }
+        if (!ProgressBar.classList.contains('hidden')) {
+            ProgressBar.classList.remove('hidden');
         }
     }
     Log('ShowScreen','ended',3);
