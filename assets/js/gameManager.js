@@ -28,6 +28,8 @@ function EndGame() {
 function NextRound() {
     Log('NextRound','started',3);
 
+    ShowScreen(5, 3)
+
     NextMessage = null;
     NextSubmessage = null;
     NextOptionOne = null;
@@ -55,9 +57,22 @@ function NextRound() {
 }
 
 function GetRandomPlayer() {
+    Log('GetRandomPlayer','started',3);
+
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
     NextPlayer = Object.keys(Players)[PlayerID];
     NextPlayerID = PlayerID;
+
+    Log('GetRandomPlayer','ended',3);
+}
+
+function GetRandomReplacePlayer() {
+    Log('GetRandomReplacePlayer','started',3);
+
+    let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
+    return Object.keys(Players)[PlayerID];
+
+    Log('GetRandomReplacePlayer','ended',3);
 }
 
 function SetOption(id, value, colour) {
@@ -83,7 +98,7 @@ function SetOption(id, value, colour) {
 function GetRandomQuestion() {
     Log('GetRandomQuestion','started',3);
 
-    let ReplacePlayer = GetRandomPlayer();
+    let ReplacePlayer = GetRandomReplacePlayer();
 
     let Type = GetNextType();
     if (Type === 0) {
@@ -94,10 +109,10 @@ function GetRandomQuestion() {
         NextSubmessage = Replace(Truths[TruthNumber].Submessage, ReplacePlayer);
         NextOptionOne = Replace(Truths[TruthNumber].OptionOne, ReplacePlayer);
         NextOptionTwo = Replace(Truths[TruthNumber].OptionTwo, ReplacePlayer);
-        NextOptionOneValue = Replace(Truths[TruthNumber].OptionOneValue, ReplacePlayer);
-        NextOptionTwoValue = Replace(Truths[TruthNumber].OptionTwoValue, ReplacePlayer);
-        NextOptionOneColour = Replace(Truths[TruthNumber].OptionOneColour, ReplacePlayer);
-        NextOptionTwoColour = Replace(Truths[TruthNumber].OptionTwoColour, ReplacePlayer);
+        NextOptionOneValue = Truths[TruthNumber].OptionOneValue;
+        NextOptionTwoValue = Truths[TruthNumber].OptionTwoValue;
+        NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
+        NextOptionTwoColour = Truths[TruthNumber].OptionTwoColour;
 
         Truths.splice(TruthNumber, 1);
     } else if (Type === 1) {
@@ -108,14 +123,13 @@ function GetRandomQuestion() {
         NextSubmessage = Replace(Dares[DareNumber].Submessage, ReplacePlayer);
         NextOptionOne = Replace(Dares[DareNumber].OptionOne, ReplacePlayer);
         NextOptionTwo = Replace(Dares[DareNumber].OptionTwo, ReplacePlayer);
-        NextOptionOneValue = Replace(Dares[DareNumber].OptionOneValue, ReplacePlayer);
-        NextOptionTwoValue = Replace(Dares[DareNumber].OptionTwoValue, ReplacePlayer);
-        NextOptionOneColour = Replace(Dares[DareNumber].OptionOneColour, ReplacePlayer);
-        NextOptionTwoColour = Replace(Dares[DareNumber].OptionTwoColour, ReplacePlayer);
+        NextOptionOneValue = Dares[DareNumber].OptionOneValue;
+        NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
+        NextOptionOneColour = Dares[DareNumber].OptionOneColour;
+        NextOptionTwoColour = Dares[DareNumber].OptionTwoColour;
 
         Dares.splice(DareNumber, 1);
     }
-    console.log('Type: ' + Type);
 
     Log('GetRandomQuestion','ended',3);
 }
@@ -123,8 +137,10 @@ function GetRandomQuestion() {
 function Replace(Subject,Replacement) {
     Log('Replace','started',3);
 
-    if (Subject.includes('{player}')) {
-        Subject.replace('{player}', Replacement)
+    if (Subject !== null) {
+        if (Subject.includes('{player}') === true) {
+            Subject = Subject.replace('{player}', Replacement)
+        }
     }
 
     Log('Replace','ended',3);
@@ -158,6 +174,26 @@ function GetNextType() {
 function Answer(Number) {
     Log('Answer','started',3);
     
-    NextRound();
+    ShowScreen(3, 5);
+
+    let Punishment = document.getElementById('Punishment')
+
+    document.getElementById('PlayerNamePunishment').innerText = NextPlayer;
+
+    if (Number === 1) {
+        if (NextOptionOneValue === 0) {
+            NextRound();
+            return;
+        } else {
+            Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
+        }
+    } else if (Number === 2) {
+        if (NextOptionTwoValue === 0) {
+            NextRound();
+            return;
+        } else {
+            Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
+        }
+    }
     Log('Answer','ended',3);
 }

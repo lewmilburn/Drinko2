@@ -103,9 +103,9 @@ function DisplayScreen(number) {
             <h1 class="text-header-lg mb-6" id="PlayerName">
                 Error 1
             </h1>
-            <h1 class="text-header mb-6" id="Message">
+            <p class="text-header mb-6" id="Message">
                 Error 1
-            </h1>
+            </p>
             <p class="text-body mb-6" id="Submessage">
                 Error 1
             </p>
@@ -130,6 +130,20 @@ function DisplayScreen(number) {
         <a class="btn btn-blue" href="/">
         Play again
         </a>
+        </div>`;
+    } else if (number === 5) {
+        screen.innerHTML = `
+        <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
+        <h1 class="text-header-lg mb-6" id="PlayerNamePunishment">
+        Error 1
+        </h1>
+        <p class="text-header mb-6" id="Punishment">
+        Error 1
+        </p>
+        <br>
+        <button id="NextRound" class="btn btn-blue" onClick="NextRound()">
+        Next
+        </button>
         </div>`;
     }
     Log('DisplayScreen','ended',3);
