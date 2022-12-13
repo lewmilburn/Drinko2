@@ -18,7 +18,11 @@ function ShowScreen(from,to) {
     let ProgressBar = document.getElementById('ProgressBar');
     let ProgressBarValue = document.getElementById('ProgressBarValue');
 
-    if (CurrentScreen === 0 || CurrentScreen === 1) {
+    if (CurrentScreen === 0 ||
+        CurrentScreen === 1 ||
+        CurrentScreen === 2 ||
+        CurrentScreen === 6)
+    {
         if (!ResetButton.classList.contains('hidden')) {
             ResetButton.classList.add('hidden');
         }
