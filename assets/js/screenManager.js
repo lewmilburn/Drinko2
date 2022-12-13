@@ -108,8 +108,11 @@ function DisplayScreen(number) {
             </div>
             <ul id="HomePlayerList"></ul>
             <select id="HomeSelectRounds" class="input">
-                <option value="-1" selected>All the Rounds</option>
+                <option value="50" selected>50 Rounds</option>
+                <option value="25">25 Rounds</option>
+                <option value="15">15 Rounds</option>
                 <option value="10">10 Rounds</option>
+                <option value="10">5 Rounds</option>
             </select>
             <br><br>
             <div class="snap-x snap-mandatory">
