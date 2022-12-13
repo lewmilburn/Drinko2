@@ -23,7 +23,7 @@
 
 /* Buttons */
 .btn-mode-select {
-    @apply px-2 py-2 w-64 h-64 text-header rounded-md shadow-lg hover:shadow-xl transition duration-200
+    @apply px-2 py-2 w-64 h-32 text-header rounded-md shadow-lg hover:shadow-xl transition duration-200
 }
 .btn {
     @apply px-6 py-4 text-body rounded-md shadow-lg hover:shadow-xl transition duration-200
