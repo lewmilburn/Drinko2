@@ -44,7 +44,6 @@ function NextRound() {
 
     let RoundCounter = document.getElementById('RoundCounter');
 
-    Turns[Player] ++;
     Round = Round + 1;
 
     if (MaxRounds === '-1') {
@@ -86,6 +85,9 @@ function LoadNextRound() {
 
     SetOption('OptionOne', NextOptionOne, NextOptionOneColour);
     SetOption('OptionTwo', NextOptionTwo, NextOptionTwoColour);
+
+    Turns[NextPlayer] ++;
+    
     Log('LoadNextRound','ended',3);
 }
 
