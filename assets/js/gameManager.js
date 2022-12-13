@@ -104,11 +104,16 @@ function GetRandomPlayer() {
 function GetRandomReplacePlayer() {
     Log('GetRandomReplacePlayer','started',3);
 
-    let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
+    let ReplacePlayer = "";
+
+    while (ReplacePlayer !== NextPlayer) {
+        let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
+        ReplacePlayer = Object.keys(Players)[PlayerID];
+    }
 
     Log('GetRandomReplacePlayer','ended',3);
 
-    return Object.keys(Players)[PlayerID];
+    return ReplacePlayer;
 }
 
 function SetOption(id, value, colour) {
