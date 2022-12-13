@@ -107,11 +107,13 @@ function GetRandomReplacePlayer() {
     let ReplacePlayer = "";
 
     while (true) {
-        Log('GetRandomReplacePlayer','Loop RP: '+ReplacePlayer+' - NP: '+NextPlayer,3);
         let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
         ReplacePlayer = Object.keys(Players)[PlayerID];
         if (ReplacePlayer !== NextPlayer) {
+            Log('GetRandomReplacePlayer','Break RP: '+ReplacePlayer+' - NP: '+NextPlayer,3);
             break;
+        } else {
+            Log('GetRandomReplacePlayer','No break RP: '+ReplacePlayer+' - NP: '+NextPlayer,3);
         }
     }
 
