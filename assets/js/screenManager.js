@@ -13,7 +13,7 @@ function ShowScreen(from,to) {
     let ProgressBar = document.getElementById('ProgressBar');
     let ProgressBarValue = document.getElementById('ProgressBarValue');
 
-    if(ShowScreen === 0 || ShowScreen === 1) {
+    if (ShowScreen === 0 || ShowScreen === 1) {
         if (!ResetButton.classList.contains('hidden')) {
             ResetButton.classList.add('hidden');
         }
@@ -21,10 +21,10 @@ function ShowScreen(from,to) {
             ProgressBar.classList.add('hidden');
         }
     } else {
-        if (!ResetButton.classList.contains('hidden')) {
+        if (ResetButton.classList.contains('hidden')) {
             ResetButton.classList.remove('hidden');
         }
-        if (!ProgressBar.classList.contains('hidden')) {
+        if (ProgressBar.classList.contains('hidden')) {
             ProgressBarValue.style.width = ProgressBarProgress()+'%';
             ProgressBar.classList.remove('hidden');
         }
