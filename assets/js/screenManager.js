@@ -55,7 +55,8 @@ function ProgressBarProgress() {
 }
 
 function DisplayScreen(number) {
-    Log('DisplayScreen','started',3);
+    Log('DisplayScreen','started',4);
+    Log('DisplayScreen','Displaying screen: ' + number,3);
     let screen = document.getElementById('main');
     if (number === 0) {
         screen.innerHTML = `
@@ -201,5 +202,5 @@ function DisplayScreen(number) {
         </p>
         </div>`;
     }
-    Log('DisplayScreen','ended',3);
+    Log('DisplayScreen','ended',4);
 }

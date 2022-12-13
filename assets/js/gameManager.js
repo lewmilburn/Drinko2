@@ -100,7 +100,7 @@ function GetRandomPlayer() {
 
     TestLowestRandom();
 
-    Log('GetRandomReplacePlayer','Selected' + NextPlayerID,3);
+    Log('GetRandomPlayer','Selected: ' + NextPlayerID,3);
     Log('GetRandomPlayer','ended',4);
 }
 
@@ -143,7 +143,7 @@ function GetRandomReplacePlayer() {
         }
     }
 
-    Log('GetRandomReplacePlayer',ReplacePlayer + 'selected.',3);
+    Log('GetRandomReplacePlayer','Selected: ' + ReplacePlayer,3);
     Log('GetRandomReplacePlayer','ended',4);
 
     return ReplacePlayer;
