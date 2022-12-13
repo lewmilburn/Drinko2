@@ -118,5 +118,135 @@
         "OptionTwoColour": "red",
         "OptionOneValue": 1,
         "OptionTwoValue": 2
+    },
+    "13": {
+        "Message": "Name {player}'s parents.",
+        "Submessage": "",
+        "OptionOne": "Correct",
+        "OptionTwo": "Incorrect",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 4
+    },
+    "14": {
+        "Message": "Are you the kind of person to ask the DJ for song requests at the club?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 1
+    },
+    "15": {
+        "Message": "What age did you get wasted for the first time?",
+        "Submessage": "",
+        "OptionOne": "Under 16",
+        "OptionTwo": "Over 16",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "16": {
+        "Message": "What is the one food or drink you couldn't give up?",
+        "Submessage": "If the others agree you are saved, but if they disagree you drink!",
+        "OptionOne": "I'm saved",
+        "OptionTwo": "Oh no",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 5
+    },
+    "17": {
+        "Message": "What is the one food or drink you couldn't give up?",
+        "Submessage": "If the others agree you are saved, but if they disagree you drink!",
+        "OptionOne": "I'm saved",
+        "OptionTwo": "Oh no",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 5
+    },
+    "18": {
+        "Message": "Drink 1 sip for each reality TV show you've watched this week.",
+        "Submessage": "",
+        "OptionOne": "Hold it",
+        "OptionTwo": "Drink",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "19": {
+        "Message": "Have you ever had sex in public?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "20": {
+        "Message": "What age did you have your first kiss?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
+    },
+    "21": {
+        "Message": "What's your hidden talent?",
+        "Submessage": "",
+        "OptionOne": "I've shown everyone",
+        "OptionTwo": "I've not got one",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
+    },
+    "22": {
+        "Message": "vs {player}",
+        "Submessage": "Close your eyes. Is the other player wearing a necklace? If you're wrong, you drink.",
+        "OptionOne": "I'm right",
+        "OptionTwo": "I'm wrong",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 4
+    },
+    "23": {
+        "Message": "vs {player}",
+        "Submessage": "Close your eyes. What is the main colour of the other person's outfit? If you're wrong, you drink.",
+        "OptionOne": "I'm right",
+        "OptionTwo": "I'm wrong",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 4
+    },
+    "24": {
+        "Message": "Have you ever worn crocs?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 2
+    },
+    "25": {
+        "Message": "Have you ever driven whilst drunk or high?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 10,
+        "OptionTwoValue": 0
     }
 }

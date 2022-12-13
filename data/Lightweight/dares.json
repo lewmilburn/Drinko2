@@ -118,5 +118,135 @@
         "OptionTwoColour": "green",
         "OptionOneValue": 4,
         "OptionTwoValue": 2
+    },
+    "13": {
+        "Message": "Name the countries with the most attractive people. {player} should do this too.",
+        "Submessage": "Everyone should vote if they agree or not",
+        "OptionOne": "Everyone agrees",
+        "OptionTwo": "It's split!",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "14": {
+        "Message": "Hold your breath for 30 seconds or drink 3 sips.",
+        "Submessage": "",
+        "OptionOne": "Hold it",
+        "OptionTwo": "Drink",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "15": {
+        "Message": "Say your 2 times table as fast as you can for 15 seconds.",
+        "Submessage": "If you make a mistake or don't finish, you drink.",
+        "OptionOne": "I did it!",
+        "OptionTwo": "Time to drink",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 5
+    },
+    "16": {
+        "Message": "Give a foot massage to the person on your right.",
+        "Submessage": "Did they enjoy it?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "17": {
+        "Message": "Say something dirty to the person on your left.",
+        "Submessage": "Did they laugh?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "18": {
+        "Message": "Give a lap dance to someone of your choice.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "19": {
+        "Message": "Everyone adds a bit of their drink to a cup, and you drink it.",
+        "Submessage": "Ready? Let's go.",
+        "OptionOne": "How many sips?",
+        "OptionTwo": "Skip this round",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": -1,
+        "OptionTwoValue": 0
+    },
+    "20": {
+        "Message": "Tell everyone an embarrassing story about yourself.",
+        "Submessage": "",
+        "OptionOne": "Done",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 5
+    },
+    "21": {
+        "Message": "Give a personalised insult to everyone in the room.",
+        "Submessage": "",
+        "OptionOne": "Done",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 6
+    },
+    "22": {
+        "Message": "Eat five tablespoons of a condiment.",
+        "Submessage": "The group can decide which condiment you eat.",
+        "OptionOne": "Done",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "23": {
+        "Message": "Sit in a spinning chair and have the group spin you for 30 seconds.",
+        "Submessage": "Gotta go fast!",
+        "OptionOne": "Done",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 3
+    },
+    "24": {
+        "Message": "Let the group pose you in an embarrassing position and take a picture.",
+        "Submessage": "Say cheese!",
+        "OptionOne": "Done",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "25": {
+        "Message": "Remove four items of clothing.",
+        "Submessage": "(not your underwear please, we don't want to see that)",
+        "OptionOne": "Done",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3
     }
 }
