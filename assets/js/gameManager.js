@@ -106,7 +106,8 @@ function GetRandomReplacePlayer() {
 
     let ReplacePlayer = "";
 
-    while (ReplacePlayer !== NextPlayer) {
+    while (ReplacePlayer != NextPlayer) {
+        Log('GetRandomReplacePlayer','Loop RP: '+ReplacePlayer+' - NP: '+NextPlayer,3);
         let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
         ReplacePlayer = Object.keys(Players)[PlayerID];
     }
