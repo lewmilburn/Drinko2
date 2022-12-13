@@ -102,9 +102,10 @@ function GetRandomReplacePlayer() {
     Log('GetRandomReplacePlayer','started',3);
 
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
-    return Object.keys(Players)[PlayerID];
 
     Log('GetRandomReplacePlayer','ended',3);
+
+    return Object.keys(Players)[PlayerID];
 }
 
 function SetOption(id, value, colour) {
@@ -211,6 +212,14 @@ function Answer(Number) {
     let Punishment = document.getElementById('Punishment')
 
     document.getElementById('PlayerNamePunishment').innerText = NextPlayer;
+
+    if (NextOptionOneValue === -1) {
+        NextOptionOneValue = Math.floor(Math.random() * 10);
+    }
+
+    if (NextOptionTwoValue === -1) {
+        NextOptionTwoValue = Math.floor(Math.random() * 10);
+    }
 
     if (Number === 1) {
         if (NextOptionOneValue === 0) {
