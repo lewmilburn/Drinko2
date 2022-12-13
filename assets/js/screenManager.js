@@ -1,5 +1,7 @@
 DisplayScreen(0);
 
+let CurrentScreen;
+
 setTimeout(function() {
     Log('setTimeout','started',3);
     ShowScreen(0,1);
@@ -9,11 +11,14 @@ setTimeout(function() {
 function ShowScreen(from,to) {
     Log('ShowScreen','started',3);
     DisplayScreen(to);
+
+    CurrentScreen = to;
+
     let ResetButton = document.getElementById('ResetButton');
     let ProgressBar = document.getElementById('ProgressBar');
     let ProgressBarValue = document.getElementById('ProgressBarValue');
 
-    if (ShowScreen === 0 || ShowScreen === 1) {
+    if (CurrentScreen === 0 || CurrentScreen === 1) {
         if (!ResetButton.classList.contains('hidden')) {
             ResetButton.classList.add('hidden');
         }
