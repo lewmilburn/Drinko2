@@ -46,6 +46,6 @@
 
 /* Input Box */
 .input {
-    @apply rounded-md border dark:border-neutral-900 dark:bg-neutral-700 bg-neutral-100 bg-neutral-300 px-2 py-1
+    @apply rounded-md border dark:border-neutral-900 dark:bg-neutral-700 bg-neutral-100 bg-neutral-300 px-2 py-1 appearance-none
 }
 }
