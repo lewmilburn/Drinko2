@@ -25,9 +25,9 @@ function ShowScreen(from,to) {
             ResetButton.classList.remove('hidden');
         }
         if (ProgressBar.classList.contains('hidden')) {
-            ProgressBarValue.style.width = ProgressBarProgress()+'%';
             ProgressBar.classList.remove('hidden');
         }
+        ProgressBarValue.style.width = ProgressBarProgress()+'%';
     }
     Log('ShowScreen','ended',3);
 }
