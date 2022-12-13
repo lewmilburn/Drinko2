@@ -1,4 +1,5 @@
 let Players = {};
+let Turns = {};
 
 function AddPlayer() {
     Log('AddPlayer','started',3);
@@ -8,6 +9,7 @@ function AddPlayer() {
     document.getElementById('HomeAddPlayer').value = "";
 
     Players[Player] = 0;
+    Turns[Player] = 0;
 
     let List = document.getElementById("HomePlayerList");
     if (List.innerHTML === null) {

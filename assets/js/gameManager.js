@@ -44,6 +44,7 @@ function NextRound() {
 
     let RoundCounter = document.getElementById('RoundCounter');
 
+    Turns[Player] ++;
     Round = Round + 1;
 
     if (MaxRounds === '-1') {
