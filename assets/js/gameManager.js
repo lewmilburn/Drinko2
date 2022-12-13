@@ -98,6 +98,7 @@ function GetRandomPlayer() {
     NextPlayer = Object.keys(Players)[PlayerID];
     NextPlayerID = PlayerID;
 
+    Log('GetRandomReplacePlayer',NextPlayerID + 'selected.',3);
     Log('GetRandomPlayer','ended',3);
 }
 
@@ -117,6 +118,7 @@ function GetRandomReplacePlayer() {
         }
     }
 
+    Log('GetRandomReplacePlayer',ReplacePlayer + 'selected.',3);
     Log('GetRandomReplacePlayer','ended',3);
 
     return ReplacePlayer;
