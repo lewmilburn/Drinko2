@@ -4,7 +4,7 @@ let Triggered = false;
 let MaxRounds;
 
 function LoadGame(mode) {
-    Log('LoadGame','started',3);
+    Log('LoadGame','started',4);
     if (Object.keys(Players).length > 1) {
         Log('LoadGame','Mode selected: '+mode,3);
 
@@ -25,11 +25,11 @@ function LoadGame(mode) {
     } else {
         alert('You need to add some players first!');
     }
-    Log('LoadGame','ended',3);
+    Log('LoadGame','ended',4);
 }
 
 function LoadedTruths(responseJson) {
-    Log('LoadedTruths','started',3);
+    Log('LoadedTruths','started',4);
 
     for(let i in responseJson)
         Truths.push(responseJson[i]);
@@ -40,10 +40,10 @@ function LoadedTruths(responseJson) {
         StartGame();
     }
 
-    Log('LoadedTruths','ended',3);
+    Log('LoadedTruths','ended',4);
 }
 function LoadedDares(responseJson) {
-    Log('LoadedDares','started',3);
+    Log('LoadedDares','started',4);
 
     for(let i in responseJson)
         Dares.push(responseJson[i]);
@@ -54,5 +54,5 @@ function LoadedDares(responseJson) {
         StartGame();
     }
 
-    Log('LoadedDares','ended',3);
+    Log('LoadedDares','ended',4);
 }

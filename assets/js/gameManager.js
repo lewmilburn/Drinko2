@@ -11,17 +11,17 @@ let NextPlayerID;
 let Round = 0;
 
 function StartGame() {
-    Log('StartGame','started',3);
+    Log('StartGame','started',4);
     
     ShowScreen(6,3);
 
     NextRound();
 
-    Log('StartGame','ended',3);
+    Log('StartGame','ended',4);
 }
 
 function EndGame() {
-    Log('EndGame','started',3);
+    Log('EndGame','started',4);
 
     ShowScreen(3,4);
 
@@ -36,11 +36,11 @@ function EndGame() {
         }
     });
 
-    Log('EndGame','ended',3);
+    Log('EndGame','ended',4);
 }
 
 function NextRound() {
-    Log('NextRound','started',3);
+    Log('NextRound','started',4);
 
     let RoundCounter = document.getElementById('RoundCounter');
 
@@ -56,11 +56,11 @@ function NextRound() {
         EndGame();
     }
 
-    Log('NextRound','ended',3);
+    Log('NextRound','ended',4);
 }
 
 function LoadNextRound() {
-    Log('LoadNextRound','started',3);
+    Log('LoadNextRound','started',4);
     ShowScreen(5, 3);
 
     NextMessage = null;
@@ -88,11 +88,11 @@ function LoadNextRound() {
 
     Turns[NextPlayer] ++;
     
-    Log('LoadNextRound','ended',3);
+    Log('LoadNextRound','ended',4);
 }
 
 function GetRandomPlayer() {
-    Log('GetRandomPlayer','started',3);
+    Log('GetRandomPlayer','started',4);
 
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
     NextPlayer = Object.keys(Players)[PlayerID];
@@ -100,19 +100,19 @@ function GetRandomPlayer() {
 
     TestLowestRandom();
 
-    Log('GetRandomReplacePlayer',NextPlayerID + 'selected.',3);
-    Log('GetRandomPlayer','ended',3);
+    Log('GetRandomReplacePlayer','Selected' + NextPlayerID,3);
+    Log('GetRandomPlayer','ended',4);
 }
 
 function TestLowestRandom() {
-    Log('TestLowestRandom','started',3);
+    Log('TestLowestRandom','started',4);
     let lowest = [];
     let lowestValue = 0;
     for (let key in Turns) {
         if (Turns.hasOwnProperty(key)) {
             if (lowestValue === 0) {
                 lowestValue = Turns[key];
-                lowest.push(key);
+            lowest.push(key);
             } else if (Turns[key] < lowestValue) {
                 lowestValue = Turns[key];
                 lowest = [];
@@ -123,12 +123,12 @@ function TestLowestRandom() {
         }
     }
     let random = Math.floor(Math.random() * lowest.length);
-    Log('TestLowestRandom','Selected' + lowest[random],3);
-    Log('TestLowestRandom','ended',3);
+    Log('TestLowestRandom','Selected ' + lowest[random],3);
+    Log('TestLowestRandom','ended',4);
 }
 
 function GetRandomReplacePlayer() {
-    Log('GetRandomReplacePlayer','started',3);
+    Log('GetRandomReplacePlayer','started',4);
 
     let ReplacePlayer = "";
 
@@ -144,12 +144,13 @@ function GetRandomReplacePlayer() {
     }
 
     Log('GetRandomReplacePlayer',ReplacePlayer + 'selected.',3);
-    Log('GetRandomReplacePlayer','ended',3);
+    Log('GetRandomReplacePlayer','ended',4);
 
     return ReplacePlayer;
 }
 
 function SetOption(id, value, colour) {
+    Log('SetOption','started',4);
     let Option = document.getElementById(id);
 
     Option.innerText = value + "";
@@ -167,10 +168,11 @@ function SetOption(id, value, colour) {
         if (Option.classList.contains('btn-green')) { Option.classList.remove('btn-green'); }
         Option.classList.add('btn-blue');
     }
+    Log('SetOption','ended',4);
 }
 
 function GetRandomQuestion() {
-    Log('GetRandomQuestion','started',3);
+    Log('GetRandomQuestion','started',4);
 
     let ReplacePlayer = GetRandomReplacePlayer();
 
@@ -205,11 +207,11 @@ function GetRandomQuestion() {
         Dares.splice(DareNumber, 1);
     }
 
-    Log('GetRandomQuestion','ended',3);
+    Log('GetRandomQuestion','ended',4);
 }
 
 function Replace(Subject,Replacement) {
-    Log('Replace','started',3);
+    Log('Replace','started',4);
 
     if (Subject !== null) {
         if (Subject.includes('{player}') === true) {
@@ -217,13 +219,13 @@ function Replace(Subject,Replacement) {
         }
     }
 
-    Log('Replace','ended',3);
+    Log('Replace','ended',4);
 
     return Subject;
 }
 
 function GetNextType() {
-    Log('GetNextType','started',3);
+    Log('GetNextType','started',4);
 
     let Type;
     if (Truths.length === 0 && Dares.length === 0) {
@@ -235,7 +237,7 @@ function GetNextType() {
     } else {
         Type = Math.floor(Math.random() * 2);
     }
-    Log('GetNextType','ended',3);
+    Log('GetNextType','ended',4);
 
     if (Type === undefined) {
         EndGame();
@@ -246,7 +248,7 @@ function GetNextType() {
 }
 
 function Answer(Number) {
-    Log('Answer','started',3);
+    Log('Answer','started',4);
     
     ShowScreen(3, 5);
 
@@ -279,5 +281,5 @@ function Answer(Number) {
             LeaderboardAdd(NextPlayer, NextOptionTwoValue);
         }
     }
-    Log('Answer','ended',3);
+    Log('Answer','ended',4);
 }

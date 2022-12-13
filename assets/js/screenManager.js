@@ -3,13 +3,13 @@ DisplayScreen(0);
 let CurrentScreen;
 
 setTimeout(function() {
-    Log('setTimeout','started',3);
+    Log('setTimeout','started',4);
     ShowScreen(0,1);
-    Log('setTimeout','ended',3);
+    Log('setTimeout','ended',4);
 }, 2000);
 
 function ShowScreen(from,to) {
-    Log('ShowScreen','started',3);
+    Log('ShowScreen','started',4);
     DisplayScreen(to);
 
     CurrentScreen = to;
@@ -38,14 +38,19 @@ function ShowScreen(from,to) {
         }
         ProgressBarValue.style.width = ProgressBarProgress()+'%';
     }
-    Log('ShowScreen','ended',3);
+    Log('ShowScreen','ended',4);
 }
 
 function ProgressBarProgress() {
+    Log('ProgressBarProgress','started',4);
     if (MaxRounds === -1) {
+        Log('ProgressBarProgress','ended',4);
         return 0;
     } else {
-        return (100 * Round) / MaxRounds;
+        let ProgressAmount = (100 * Round) / MaxRounds;
+        Log('ProgressBarProgress','Progress: ' + ProgressAmount,3);
+        Log('ProgressBarProgress','ended',4);
+        return ProgressAmount;
     }
 }
 

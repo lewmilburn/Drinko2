@@ -2,7 +2,7 @@ let Players = {};
 let Turns = {};
 
 function AddPlayer() {
-    Log('AddPlayer','started',3);
+    Log('AddPlayer','started',4);
 
     let Player = document.getElementById('HomeAddPlayer').value;
 
@@ -18,21 +18,21 @@ function AddPlayer() {
         List.innerHTML = List.innerHTML + '<li>' + Player + '</li>';
     }
 
-    Log('AddPlayer','ended',3);
+    Log('AddPlayer','ended',4);
 }
 
 function GetPlayerScore(Player) {
-    Log('GetPlayerScore','started',3);
+    Log('GetPlayerScore','started',4);
     
     console.log(Players[Player]);
 
-    Log('GetPlayerScore','ended',3);
+    Log('GetPlayerScore','ended',4);
 }
 
 function LeaderboardAdd(Player, Amount) {
-    Log('LeaderboardAdd','started',3);
+    Log('LeaderboardAdd','started',4);
 
     Players[Player] += Amount;
 
-    Log('LeaderboardAdd','started',3);
+    Log('LeaderboardAdd','started',4);
 }
