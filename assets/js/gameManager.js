@@ -74,7 +74,11 @@ function LoadNextRound() {
     GetRandomPlayer();
     GetRandomQuestion();
 
-    PlayerName.innerHTML = NextPlayer;
+    if (NextMode === 1) {
+        PlayerName.innerHTML = NextPlayer;
+    } else if (NextMode === 2) {
+        PlayerName.innerHTML = NextPlayer + ' and ' + NextSecondPlayer;
+    }
     Message.innerHTML = NextMessage;
     Submessage.innerHTML = NextSubmessage;
 
