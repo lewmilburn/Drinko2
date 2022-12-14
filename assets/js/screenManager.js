@@ -160,12 +160,14 @@ function DisplayScreen(number) {
                 Error 1
             </p>
             <br>
-            <button id="OptionOne" class="btn btn-green" onClick="Answer(1)">
-                Error 1
-            </button>
-            <button id="OptionTwo" class="btn btn-red" onClick="Answer(2)">
-                Error 1
-            </button>
+            <div class="grid grid-cols-2">
+                <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
+                    Error 1
+                </button>
+                <button id="OptionTwo" class="btn-game-option btn-red" onClick="Answer(2)">
+                    Error 1
+                </button>
+            </div>
         </div>`;
     } else if (number === 4) {
         screen.innerHTML = `
@@ -182,49 +184,53 @@ function DisplayScreen(number) {
     } else if (number === 5) {
         screen.innerHTML = `
         <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
-        <h1 class="text-header-lg mb-6" id="PlayerNamePunishment">
-        Error 1
-        </h1>
-        <p class="text-header mb-6" id="Punishment">
-        Error 1
-        </p>
-        <br>
-        <button id="NextRound" class="btn btn-blue" onClick="NextRound()">
-        Next
-        </button>
+            <h1 class="text-header-lg mb-6" id="PlayerNamePunishment">
+                Error 1
+            </h1>
+            <p class="text-header mb-6" id="Punishment">
+                Error 1
+            </p>
+            <br>
+            <div class="grid grid-cols-1">
+                <button id="NextRound" class="btn-game-option btn-blue" onClick="NextRound()">
+                    Next
+                </button>
+            </div>
         </div>`;
     } else if (number === 6) {
         screen.innerHTML = `
         <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
-        <h1 class="text-header-lg mb-6">
-        Loading...
-        </h1>
-        <p class="text-header mb-6">
-        Please wait.
-        </p>
+            <h1 class="text-header-lg mb-6">
+                Loading...
+            </h1>
+            <p class="text-header mb-6">
+                Please wait.
+            </p>
         </div>`;
     } else if (number === 7) {
         screen.innerHTML = `
         <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-3 sm:my-6 md:my-12 lg:my-24 text-center">
-        <h1 class="text-header-lg mb-6" id="PlayerName">
-        Error 1
-        </h1>
-        <p class="text-header mb-6" id="Message">
-        Error 1
-        </p>
-        <p class="text-body mb-6" id="Submessage">
-        Error 1
-        </p>
-        <br>
-        <button id="OptionOne" class="btn btn-green" onClick="Answer(1)">
-        Error 1
-        </button>
-        <button id="OptionTwo" class="btn btn-red" onClick="Answer(2)">
-        Error 1
-        </button>
-        <button id="Skip" class="btn btn-blue" onClick="Answer(2)">
-        Skip
-        </button>
+            <h1 class="text-header-lg mb-6" id="PlayerName">
+                Error 1
+            </h1>
+            <p class="text-header mb-6" id="Message">
+                Error 1
+            </p>
+            <p class="text-body mb-6" id="Submessage">
+                Error 1
+            </p>
+            <br>
+            <div class="grid grid-cols-2">
+                <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
+                    Error 1
+                </button>
+                <button id="OptionTwo" class="btn-game-option btn-red" onClick="Answer(2)">
+                    Error 1
+                </button>
+                <button id="Skip" class="btn-game-option btn-blue col-span-2" onClick="Answer(2)">
+                    Skip
+                </button>
+            </div>
         </div>`;
     }
     Log('DisplayScreen','ended',4);
