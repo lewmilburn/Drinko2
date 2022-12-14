@@ -26,7 +26,7 @@
     @apply px-2 py-2 w-full h-16 text-2xl md:h-32 md:text-4xl text-body md:text-header rounded-md shadow-lg hover:shadow-xl transition duration-200 relative
 }
 .btn-game-option {
-    @apply text-3xl font-bold px-2 py-2 w-full h-12 text-2xl md:h-24 md:text-4xl md:text-header rounded-md shadow-lg hover:shadow-xl transition duration-200 relative
+    @apply text-5xl font-bold px-2 py-2 w-full h-12 text-2xl md:h-24 md:text-4xl md:text-header rounded-md shadow-lg hover:shadow-xl transition duration-200 relative
 }
 .btn {
     @apply px-6 py-4 text-body rounded-md shadow-lg hover:shadow-xl transition duration-200
