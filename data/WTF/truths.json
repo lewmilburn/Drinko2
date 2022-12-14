@@ -1,12 +1,14 @@
 {
     "1": {
-        "Message": "This is a test truth",
+        "Message": "What is the worst thing you could possibly say in bed?",
         "Submessage": "",
-        "OptionOne": "Yes",
-        "OptionTwo": "No",
+        "OptionOne": "Continue",
+        "OptionTwo": "Skip",
         "OptionOneColour": "green",
-        "OptionTwoColour": "red",
-        "OptionOneValue": 3,
-        "OptionTwoValue": 3
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 0,
+        "CanSkip": false,
+        "Mode": 2
     }
 }

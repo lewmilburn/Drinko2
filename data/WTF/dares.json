@@ -1,14 +1,74 @@
 {
     "1": {
-        "Message": "Lapdance-off!",
+        "Message": "Either like you ex's Instagram pics, or bottoms up!",
+        "Submessage": "Every. Little. Detail",
+        "OptionOne": "Like",
+        "OptionTwo": "Drink",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": -1,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "2": {
+        "Message": "Do the Carole Baskin TikTok dance.",
+        "Submessage": "If you get it wrong, drink 4 sips.",
+        "OptionOne": "I did it!",
+        "OptionTwo": "I got it wrong :(",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "3": {
+        "Message": "The other players have 30 seconds to make a coctail for you, enjoy!",
+        "Submessage": "3, 2, 1, GO!",
+        "OptionOne": "How many sips?",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": -1,
+        "OptionTwoValue": 0,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "4": {
+        "Message": "Kiss {player}'s foot.",
         "Submessage": "",
         "OptionOne": "Yes",
         "OptionTwo": "No",
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
-        "OptionOneValue": 3,
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "5": {
+        "Message": "Sign your name on the window with your tongue.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "6": {
+        "Message": "Balance a cup on your head for 30 seconds.",
+        "Submessage": "Could you keep it up?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": true,
-        "Mode": 2
+        "Mode": 1
     }
 }
