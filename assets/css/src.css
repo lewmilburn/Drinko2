@@ -49,7 +49,7 @@
 
 /* Layouts */
 .game-buttons {
-    @apply gap-2 absolute bottom-4 w-screen px-6 sm:px-12 md:px-24 lg:px-48 left-0 right-0
+    @apply gap-2 absolute bottom-12 w-screen px-6 sm:px-12 md:px-24 lg:px-48 left-0 right-0
 }
 
 /* Input Box */
