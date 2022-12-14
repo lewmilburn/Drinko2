@@ -95,7 +95,7 @@ function GetRandomPlayer() {
 
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
 
-    if (Round >= Object.keys(Players).length) {
+    if (Round >= Object.keys(Players).length * 2) {
         NextPlayer = GetUserLowestTurns();
     } else {
         NextPlayer = Object.keys(Players)[PlayerID];
@@ -110,7 +110,7 @@ function GetUserLowestTurns() {
 
     let LowestUser = Object.keys(Turns).find(key => Turns[key] === (Object.keys(Turns).reduce((acc, val) => {
         return Math.min(acc, Turns[val]);
-        }, Infinity)));
+    }, Infinity)));
 
     Log('GetUserLowestTurns','Selected ' + LowestUser,3);
 

@@ -12,10 +12,15 @@ function AddPlayer() {
     Turns[Player] = 0;
 
     let List = document.getElementById("HomePlayerList");
-    if (List.innerHTML === null) {
-        List.innerHTML = '<li>' + Player + '</li>';
+
+    if (Object.keys(Players).length > 10) {
+        if (List.innerHTML === null) {
+            List.innerHTML = '<li>' + Player + '</li>';
+        } else {
+            List.innerHTML = List.innerHTML + '<li>' + Player + '</li>';
+        }
     } else {
-        List.innerHTML = List.innerHTML + '<li>' + Player + '</li>';
+        alert('You can\'t add any more players.');
     }
 
     Log('AddPlayer','ended',4);
