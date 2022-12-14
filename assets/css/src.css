@@ -9,13 +9,13 @@
 
 /* Text Sizes */
 .text-header-lg {
-    @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold;
+    @apply text-6xl sm:text-5xl md:text-6xl lg:text-7xl font-bold;
 }
 .text-header {
-    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
+    @apply text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-bold;
 }
 .text-body {
-    @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+    @apply text-lg md:text-2xl lg:text-3xl;
 }
 .text-sm {
     @apply sm:text-lg md:text-xl lg:text-2xl;
@@ -26,7 +26,7 @@
     @apply px-2 py-2 w-full h-16 text-2xl md:h-32 md:text-4xl text-body md:text-header rounded-md shadow-lg hover:shadow-xl transition duration-200 relative
 }
 .btn-game-option {
-    @apply px-2 py-2 w-full h-12 text-2xl md:h-24 md:text-4xl text-body md:text-header rounded-md shadow-lg hover:shadow-xl transition duration-200 relative
+    @apply text-3xl md:text-2xl lg:text-3xl px-2 py-2 w-full h-12 text-2xl md:h-24 md:text-4xl text-body md:text-header rounded-md shadow-lg hover:shadow-xl transition duration-200 relative
 }
 .btn {
     @apply px-6 py-4 text-body rounded-md shadow-lg hover:shadow-xl transition duration-200
