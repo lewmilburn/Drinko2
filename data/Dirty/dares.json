@@ -108,5 +108,145 @@
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
         "OptionTwoValue": 3
+    },
+    "12": {
+        "Message": "Give {player} a back massage.",
+        "Submessage": "You can give out your sips to whoever you'd like as a reward for your generosity.",
+        "OptionOne": "Done",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 3
+    },
+    "13": {
+        "Message": "Make eye contact with {player} and moan for 10 seconds.",
+        "Submessage": "If either of you laugh, you both drink.",
+        "OptionOne": "We laughed",
+        "OptionTwo": "We didn't laugh",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 4
+    },
+    "14": {
+        "Message": "Perform a seductive dance in front of the group.",
+        "Submessage": "Did they like it?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 3
+    },
+    "15": {
+        "Message": "Perform a seductive dance in front of the group.",
+        "Submessage": "Did they like it?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 3
+    },
+    "16": {
+        "Message": "Drop an ice cube in your pants.",
+        "Submessage": "Enjoy ;)",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 5
+    },
+    "17": {
+        "Message": "Google the dirtiest thing you can think of and show it to the person next to you.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 6
+    },
+    "18": {
+        "Message": "Google the dirtiest thing you can think of and show it to the person next to you.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 6
+    },
+    "19": {
+        "Message": "Show us all your search history.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 5
+    },
+    "20": {
+        "Message": "Tell us your best pickup line.",
+        "Submessage": "The group will decide your fate.",
+        "OptionOne": "It's good",
+        "OptionTwo": "It's shite",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "21": {
+        "Message": "Do a sexy crawl and make it look as sexy as possible.",
+        "Submessage": "The group will decide your fate.",
+        "OptionOne": "It's good",
+        "OptionTwo": "It's shite",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "22": {
+        "Message": "What is the most public place you’ve done it?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "23": {
+        "Message": "Have you ever been caught in action?",
+        "Submessage": "If so, by who?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 2
+    },
+    "24": {
+        "Message": "Read one of your sexts in the group.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "25": {
+        "Message": "Perform a fake orgasm.",
+        "Submessage": "The group votes:",
+        "OptionOne": "It was good",
+        "OptionTwo": "It wasn't good",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 6
     }
 }

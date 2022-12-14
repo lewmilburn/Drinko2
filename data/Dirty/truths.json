@@ -128,5 +128,125 @@
         "OptionTwoColour": "green",
         "OptionOneValue": 4,
         "OptionTwoValue": 1
+    },
+    "14": {
+        "Message": "Have you ever fantasised about somebody in this room?",
+        "Submessage": "You don't have to tell us who ;)",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 5,
+        "OptionTwoValue": 1
+    },
+    "15": {
+        "Message": "Have you ever injured your genitals?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3
+    },
+    "16": {
+        "Message": "Have you had sex whilst still in school?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "blue",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 2
+    },
+    "17": {
+        "Message": "Would you hook up with someone in the room?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 5,
+        "OptionTwoValue": 3
+    },
+    "18": {
+        "Message": "Have you ever fantasized about someone of the same sex?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "19": {
+        "Message": "Have you ever fantasized about someone of the opposite sex?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 2
+    },
+    "20": {
+        "Message": "Who do you think is the most attractive from the group?",
+        "Submessage": "Share it and explain why, or drink!",
+        "OptionOne": "Done",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "21": {
+        "Message": "Guess who was the last one to lose their virginity.",
+        "Submessage": "Those who are still virgins don't count!",
+        "OptionOne": "I was right",
+        "OptionTwo": "I was wrong",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 5
+    },
+    "22": {
+        "Message": "Tell us how you lost your virginity.",
+        "Submessage": "We are burning with curiosity, don't leave any details out!",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4
+    },
+    "23": {
+        "Message": "Let {player} nibble on your ear.",
+        "Submessage": "If you cringe you drink, or skip the love bite by chugging your drink!",
+        "OptionOne": "Done",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 10
+    },
+    "24": {
+        "Message": "Take off your bra one handed, if you fail you drink.",
+        "Submessage": "If you don't have a bra on, you drink anyway hahaha!",
+        "OptionOne": "Done",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 6
+    },
+    "25": {
+        "Message": "Have you ever done it in someone's bed who wasn't participating?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 5,
+        "OptionTwoValue": 1
     }
 }
