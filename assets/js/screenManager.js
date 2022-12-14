@@ -124,7 +124,7 @@ function DisplayScreen(number) {
             <ul id="HomePlayerList"></ul>
             <select id="HomeSelectRounds" class="input">
                 <option value="50">50 Rounds</option>
-        <option value="25" selected>25 Rounds</option>
+                <option value="25" selected>25 Rounds</option>
                 <option value="15">15 Rounds</option>
                 <option value="10">10 Rounds</option>
                 <option value="10">5 Rounds</option>
