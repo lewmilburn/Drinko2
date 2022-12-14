@@ -10,5 +10,17 @@
         "OptionTwoValue": 0,
         "CanSkip": false,
         "Mode": 2
+    },
+    "2": {
+        "Message": "How do you peel a bananna? From the top or the bottom?",
+        "Submessage": "Those who do it the same way drink with you.",
+        "OptionOne": "Continue",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
     }
 }

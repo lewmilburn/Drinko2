@@ -9,7 +9,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": -1,
         "CanSkip": false,
-        "Mode": 2
+        "Mode": 1
     },
     "2": {
         "Message": "Do the Carole Baskin TikTok dance.",
@@ -21,7 +21,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Mode": 2
+        "Mode": 1
     },
     "3": {
         "Message": "The other players have 30 seconds to make a cocktail for you, enjoy!",
@@ -33,7 +33,7 @@
         "OptionOneValue": -1,
         "OptionTwoValue": 0,
         "CanSkip": false,
-        "Mode": 2
+        "Mode": 1
     },
     "4": {
         "Message": "Kiss {player}'s foot.",
@@ -45,7 +45,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Mode": 2
+        "Mode": 1
     },
     "5": {
         "Message": "Sign your name on the window with your tongue.",
@@ -57,7 +57,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Mode": 2
+        "Mode": 1
     },
     "6": {
         "Message": "Balance a cup on your head for 30 seconds.",
@@ -69,6 +69,210 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": true,
+        "Mode": 1
+    },
+    "7": {
+        "Message": "You have to move and speak like a robot for the next 3 rounds.",
+        "Submessage": "If you forget, drink 2 sips!",
+        "OptionOne": "Okay",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "8": {
+        "Message": "Put on any porn for 30 seconds.",
+        "Submessage": "The group now votes if it's hot or not.",
+        "OptionOne": "Hot",
+        "OptionTwo": "Not",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": true,
+        "Mode": 1
+    },
+    "9": {
+        "Message": "Suck the thumb of the player to your right.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "10": {
+        "Message": "Let the other players tickle you for 20 seconds.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "11": {
+        "Message": "Twerk for us.",
+        "Submessage": "The group votes",
+        "OptionOne": "It's sexy",
+        "OptionTwo": "Ew stop",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "12": {
+        "Message": "Give us your best imitation of Homer Simpson.",
+        "Submessage": "The group votes",
+        "OptionOne": "It's good",
+        "OptionTwo": "It's bad",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "13": {
+        "Message": "Plank for 30 seconds! If you fall, drink 3 sips.",
+        "Submessage": "",
+        "OptionOne": "I've done it",
+        "OptionTwo": "I fell :(",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 3,
+        "CanSkip": true,
+        "Mode": 1
+    },
+    "14": {
+        "Message": "Sit back to back, is the other player right or left handed?",
+        "Submessage": "If either of you are wrong, you both drink.",
+        "OptionOne": "Both right",
+        "OptionTwo": "Both wrong",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
         "Mode": 2
+    },
+    "15": {
+        "Message": "Talk in a sexy way for 30 seconds.",
+        "Submessage": "If anyone cringes, you drink.",
+        "OptionOne": "No cringes",
+        "OptionTwo": "Someone cringed",
+        "OptionOneColour": "red",
+        "OptionTwoColour": "green",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "16": {
+        "Message": "Lucky you!",
+        "Submessage": "Take 4 sips.",
+        "OptionOne": "Yes please!",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 4,
+        "OptionTwoValue": 0,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "17": {
+        "Message": "Name all of the people in the room.",
+        "Submessage": "If you make any mistakes you drink.",
+        "OptionOne": "Done",
+        "OptionTwo": "Mistake made",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "18": {
+        "Message": "Point to the person who's gonna become a parent next.",
+        "Submessage": "If everyone agrees, you are safe.",
+        "OptionOne": "Everyone agrees",
+        "OptionTwo": "It's split!",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "19": {
+        "Message": "From now on you are the servant until the end of the game.",
+        "Submessage": "You can play rock-paper-scissors with anyone, anytime.",
+        "OptionOne": "Ok!",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "20": {
+        "Message": "Bottoms up if you ever saw {player} throw up.",
+        "Submessage": "",
+        "OptionOne": "How many sips?",
+        "OptionTwo": "Never seen them barf!",
+        "OptionOneColour": "blue",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": -1,
+        "OptionTwoValue": 0,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "21": {
+        "Message": "You have to be quiet for 5 minutes.",
+        "Submessage": "If not, one sip each time you speak.",
+        "OptionOne": "Ok!",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "22": {
+        "Message": "Hop around the room.",
+        "Submessage": "Drink 5 sips if you fall.",
+        "OptionOne": "I did it!",
+        "OptionTwo": "I fell",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "23": {
+        "Message": "Tell a joke, if nobody laughs you drink.",
+        "Submessage": "",
+        "OptionOne": "I got laughs!",
+        "OptionTwo": "Nobody laughed :(",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
     }
 }
