@@ -9,7 +9,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": -1,
         "CanSkip": false,
-        "Mode": 1
+        "Mode": 2
     },
     "2": {
         "Message": "Do the Carole Baskin TikTok dance.",
@@ -21,10 +21,10 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Mode": 1
+        "Mode": 2
     },
     "3": {
-        "Message": "The other players have 30 seconds to make a coctail for you, enjoy!",
+        "Message": "The other players have 30 seconds to make a cocktail for you, enjoy!",
         "Submessage": "3, 2, 1, GO!",
         "OptionOne": "How many sips?",
         "OptionTwo": "Skip",
@@ -33,7 +33,7 @@
         "OptionOneValue": -1,
         "OptionTwoValue": 0,
         "CanSkip": false,
-        "Mode": 1
+        "Mode": 2
     },
     "4": {
         "Message": "Kiss {player}'s foot.",
@@ -45,7 +45,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Mode": 1
+        "Mode": 2
     },
     "5": {
         "Message": "Sign your name on the window with your tongue.",
@@ -57,7 +57,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Mode": 1
+        "Mode": 2
     },
     "6": {
         "Message": "Balance a cup on your head for 30 seconds.",
@@ -69,6 +69,6 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": true,
-        "Mode": 1
+        "Mode": 2
     }
 }
