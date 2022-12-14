@@ -14,9 +14,9 @@ function AddPlayer() {
     let List = document.getElementById("HomePlayerList");
 
     if (Object.keys(Players).length <= 15) {
-        if (Player === '69') {
-            alert('Nice ;)');
-        }
+        if (Player === '69') { alert('Nice ;)'); }
+        else if (Player === '420') { alert('Blaze it!'); }
+
         if (List.innerHTML === null) {
             List.innerHTML = '<li>' + Player + '</li>';
         } else {
