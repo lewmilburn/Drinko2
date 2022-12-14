@@ -51,7 +51,6 @@ function GetRandomQuestion() {
     let Type = GetNextType();
     if (Type === 0) {
         let TruthNumber = Math.floor(Math.random() * (Truths.length));
-        Log('GetRandomQuestion','Type: ' + Type + ' - TruthNumber: '+TruthNumber,3);
 
         NextMode = Truths[TruthNumber].Mode;
         NextMessage = Replace(Truths[TruthNumber].Message, NextSecondPlayer);
@@ -62,6 +61,8 @@ function GetRandomQuestion() {
         NextOptionTwoValue = Truths[TruthNumber].OptionTwoValue;
         NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
         NextOptionTwoColour = Truths[TruthNumber].OptionTwoColour;
+
+        Log('GetRandomQuestion','Type: ' + Type + ' - Number: '+TruthNumber+' - Mode: '+NextMode,3);
 
         Truths.splice(TruthNumber, 1);
     } else if (Type === 1) {
