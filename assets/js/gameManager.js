@@ -112,9 +112,9 @@ function GetUserLowestTurns() {
         return Math.min(acc, Turns[val]);
         }, Infinity)));
 
-    Log('GetUserLowestTurns','Selected ' + LowerstUser,3);
+    Log('GetUserLowestTurns','Selected ' + LowestUser,3);
 
-    return LowerstUser
+    return LowestUser
     Log('GetUserLowestTurns','ended',4);
 }
 
