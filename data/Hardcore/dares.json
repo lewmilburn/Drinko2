@@ -1,8 +1,14 @@
 {
     "1": {
-        "Message": "This is a test dare.",
-        "Submessage": "This is a test dare sub-message",
-        "Yes": 0,
-        "No": 0
+        "Message": "Send one of your parents a sext and don’t reply to them for one hour.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Type": 1
     }
 }

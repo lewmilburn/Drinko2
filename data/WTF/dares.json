@@ -1,12 +1,14 @@
 {
     "1": {
-        "Message": "This is a test dare",
+        "Message": "Lapdance-off!",
         "Submessage": "",
         "OptionOne": "Yes",
         "OptionTwo": "No",
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 3,
-        "OptionTwoValue": 3
+        "OptionTwoValue": 3,
+        "CanSkip": true,
+        "Type": 2
     }
 }

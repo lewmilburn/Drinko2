@@ -46,17 +46,18 @@ function SetOption(id, value, colour) {
 function GetRandomQuestion() {
     Log('GetRandomQuestion','started',4);
 
-    let ReplacePlayer = GetRandomReplacePlayer();
+    NextSecondPlayer = GetRandomReplacePlayer();
 
     let Type = GetNextType();
     if (Type === 0) {
         let TruthNumber = Math.floor(Math.random() * (Truths.length));
         Log('GetRandomQuestion','Type: ' + Type + ' - TruthNumber: '+TruthNumber,3);
 
-        NextMessage = Replace(Truths[TruthNumber].Message, ReplacePlayer);
-        NextSubmessage = Replace(Truths[TruthNumber].Submessage, ReplacePlayer);
-        NextOptionOne = Replace(Truths[TruthNumber].OptionOne, ReplacePlayer);
-        NextOptionTwo = Replace(Truths[TruthNumber].OptionTwo, ReplacePlayer);
+        NextMode = Truths[TruthNumber].Mode;
+        NextMessage = Replace(Truths[TruthNumber].Message, NextSecondPlayer);
+        NextSubmessage = Replace(Truths[TruthNumber].Submessage, NextSecondPlayer);
+        NextOptionOne = Replace(Truths[TruthNumber].OptionOne, NextSecondPlayer);
+        NextOptionTwo = Replace(Truths[TruthNumber].OptionTwo, NextSecondPlayer);
         NextOptionOneValue = Truths[TruthNumber].OptionOneValue;
         NextOptionTwoValue = Truths[TruthNumber].OptionTwoValue;
         NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
@@ -67,10 +68,11 @@ function GetRandomQuestion() {
         let DareNumber = Math.floor(Math.random() * (Dares.length));
         Log('GetRandomQuestion','Type: ' + Type + ' - DareNumber: '+DareNumber,3);
 
-        NextMessage = Replace(Dares[DareNumber].Message, ReplacePlayer);
-        NextSubmessage = Replace(Dares[DareNumber].Submessage, ReplacePlayer);
-        NextOptionOne = Replace(Dares[DareNumber].OptionOne, ReplacePlayer);
-        NextOptionTwo = Replace(Dares[DareNumber].OptionTwo, ReplacePlayer);
+        NextMode = Dares[DareNumber].Mode;
+        NextMessage = Replace(Dares[DareNumber].Message, NextSecondPlayer);
+        NextSubmessage = Replace(Dares[DareNumber].Submessage, NextSecondPlayer);
+        NextOptionOne = Replace(Dares[DareNumber].OptionOne, NextSecondPlayer);
+        NextOptionTwo = Replace(Dares[DareNumber].OptionTwo, NextSecondPlayer);
         NextOptionOneValue = Dares[DareNumber].OptionOneValue;
         NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
         NextOptionOneColour = Dares[DareNumber].OptionOneColour;

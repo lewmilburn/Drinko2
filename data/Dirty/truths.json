@@ -7,7 +7,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "2": {
         "Message": "What's your biggest turn-on?",
@@ -17,7 +19,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 3
+        "OptionTwoValue": 3,
+        "CanSkip": true,
+        "Type": 1
     },
     "3": {
         "Message": "What's your biggest turn-off?",
@@ -27,7 +31,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": true,
+        "Type": 1
     },
     "4": {
         "Message": "Have you ever faked an orgasm?",
@@ -37,7 +43,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "5": {
         "Message": "What is your favourite porn category?",
@@ -47,7 +55,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 4
+        "OptionTwoValue": 4,
+        "CanSkip": true,
+        "Type": 1
     },
     "6": {
         "Message": "Have you ever had sex blackout drunk?",
@@ -57,7 +67,9 @@
         "OptionOneColour": "red",
         "OptionTwoColour": "green",
         "OptionOneValue": 3,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": true,
+        "Type": 1
     },
     "7": {
         "Message": "Have you ever fallen asleep during sex?",
@@ -67,7 +79,9 @@
         "OptionOneColour": "red",
         "OptionTwoColour": "green",
         "OptionOneValue": 3,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "8": {
         "Message": "Have you ever filmed a sex tape?",
@@ -77,7 +91,9 @@
         "OptionOneColour": "blue",
         "OptionTwoColour": "blue",
         "OptionOneValue": 3,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "9": {
         "Message": "What’s the largest age gap between you and your sexual partners?",
@@ -87,7 +103,9 @@
         "OptionOneColour": "red",
         "OptionTwoColour": "green",
         "OptionOneValue": 3,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": true,
+        "Type": 1
     },
     "10": {
         "Message": "Are you loud or silent in bed?",
@@ -97,7 +115,9 @@
         "OptionOneColour": "blue",
         "OptionTwoColour": "blue",
         "OptionOneValue": 3,
-        "OptionTwoValue": 3
+        "OptionTwoValue": 3,
+        "CanSkip": true,
+        "Type": 1
     },
     "11": {
         "Message": "What's the most embarrassing thing that's happened to you during sex?",
@@ -107,7 +127,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 3
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Type": 1
     },
     "12": {
         "Message": "Have you ever farted during sex?",
@@ -117,7 +139,9 @@
         "OptionOneColour": "red",
         "OptionTwoColour": "green",
         "OptionOneValue": 4,
-        "OptionTwoValue": 1
+        "OptionTwoValue": 1,
+        "CanSkip": false,
+        "Type": 1
     },
     "13": {
         "Message": "Have you ever fantasised about a teacher or boss?",
@@ -127,7 +151,9 @@
         "OptionOneColour": "red",
         "OptionTwoColour": "green",
         "OptionOneValue": 4,
-        "OptionTwoValue": 1
+        "OptionTwoValue": 1,
+        "CanSkip": false,
+        "Type": 1
     },
     "14": {
         "Message": "Have you ever fantasised about somebody in this room?",
@@ -137,7 +163,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 5,
-        "OptionTwoValue": 1
+        "OptionTwoValue": 1,
+        "CanSkip": false,
+        "Type": 1
     },
     "15": {
         "Message": "Have you ever injured your genitals?",
@@ -147,7 +175,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 3
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Type": 1
     },
     "16": {
         "Message": "Have you had sex whilst still in school?",
@@ -157,7 +187,9 @@
         "OptionOneColour": "blue",
         "OptionTwoColour": "blue",
         "OptionOneValue": 1,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "17": {
         "Message": "Would you hook up with someone in the room?",
@@ -167,7 +199,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 5,
-        "OptionTwoValue": 3
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Type": 1
     },
     "18": {
         "Message": "Have you ever fantasized about someone of the same sex?",
@@ -177,7 +211,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 4,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "19": {
         "Message": "Have you ever fantasized about someone of the opposite sex?",
@@ -187,7 +223,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 4,
-        "OptionTwoValue": 2
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Type": 1
     },
     "20": {
         "Message": "Who do you think is the most attractive from the group?",
@@ -195,7 +233,7 @@
         "OptionOne": "Done",
         "OptionTwo": "Skip",
         "OptionOneColour": "green",
-        "OptionTwoColour": "red",
+        "OptionTwoColour": "blue",
         "OptionOneValue": 2,
         "OptionTwoValue": 4
     },
@@ -207,7 +245,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 1,
-        "OptionTwoValue": 5
+        "OptionTwoValue": 5,
+        "CanSkip": true,
+        "Type": 1
     },
     "22": {
         "Message": "Tell us how you lost your virginity.",
@@ -217,7 +257,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 4
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Type": 1
     },
     "23": {
         "Message": "Let {player} nibble on your ear.",
@@ -225,9 +267,11 @@
         "OptionOne": "Done",
         "OptionTwo": "Skip",
         "OptionOneColour": "green",
-        "OptionTwoColour": "red",
+        "OptionTwoColour": "blue",
         "OptionOneValue": 2,
-        "OptionTwoValue": 10
+        "OptionTwoValue": 10,
+        "CanSkip": false,
+        "Type": 1
     },
     "24": {
         "Message": "Take off your bra one handed, if you fail you drink.",
@@ -235,9 +279,11 @@
         "OptionOne": "Done",
         "OptionTwo": "Skip",
         "OptionOneColour": "green",
-        "OptionTwoColour": "red",
+        "OptionTwoColour": "blue",
         "OptionOneValue": 2,
-        "OptionTwoValue": 6
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Type": 1
     },
     "25": {
         "Message": "Have you ever done it in someone's bed who wasn't participating?",
@@ -247,6 +293,8 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 5,
-        "OptionTwoValue": 1
+        "OptionTwoValue": 1,
+        "CanSkip": false,
+        "Type": 1
     }
 }

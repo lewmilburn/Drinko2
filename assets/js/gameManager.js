@@ -7,6 +7,8 @@ let NextOptionTwo;
 let NextOptionTwoColour;
 let NextOptionTwoValue;
 let NextPlayer;
+let NextSecondPlayer;
+let NextMode;
 let Round = 0;
 
 function StartGame() {
@@ -86,6 +88,9 @@ function LoadNextRound() {
     SetOption('OptionTwo', NextOptionTwo, NextOptionTwoColour);
 
     Turns[NextPlayer] ++;
+    if (NextMode === 2) {
+        Turns[NextSecondPlayer] ++;
+    }
     
     Log('LoadNextRound','ended',4);
 }
@@ -97,7 +102,11 @@ function Answer(Number) {
 
     let Punishment = document.getElementById('Punishment')
 
-    document.getElementById('PlayerNamePunishment').innerText = NextPlayer;
+    if (NextMode === 1) {
+        document.getElementById('PlayerNamePunishment').innerText = NextPlayer;
+    } else if (NextMode === 2) {
+        document.getElementById('PlayerNamePunishment').innerText = NextPlayer+' and '+NextSecondPlayer;
+    }
 
     if (NextOptionOneValue === -1) {
         NextOptionOneValue = Math.floor(Math.random() * 10);
@@ -114,6 +123,9 @@ function Answer(Number) {
         } else {
             Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
             LeaderboardAdd(NextPlayer, NextOptionOneValue);
+            if (NextMode === 2) {
+                LeaderboardAdd(NextSecondPlayer, NextOptionOneValue);
+            }
         }
     } else if (Number === 2) {
         if (NextOptionTwoValue === 0) {
@@ -122,6 +134,9 @@ function Answer(Number) {
         } else {
             Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
             LeaderboardAdd(NextPlayer, NextOptionTwoValue);
+            if (NextMode === 2) {
+                LeaderboardAdd(NextSecondPlayer, NextOptionTwoValue);
+            }
         }
     }
     Log('Answer','ended',4);
