@@ -139,10 +139,12 @@ function DisplayScreen(number) {
                     <span class="absolute top-1 right-1 text-white text-xs">NEW</span>
                     Dirty
                 </button>
-                <button class="btn-mode-select btn-red" onClick="alert('Coming soon...');">
+                <button class="btn-mode-select btn-red" onClick="LoadGame('WTF');">
+                    <span class="absolute top-1 right-1 text-white text-xs">PREVIEW</span>
                     WTF
                 </button>
                 <button class="btn-mode-select btn-red" onClick="alert('Coming soon...');">
+                    <span class="absolute top-1 right-1 text-white text-xs">COMING SOON</span>
                     Hardcore
                 </button>
             </div>
