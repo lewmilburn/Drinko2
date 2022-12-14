@@ -9,7 +9,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "2": {
         "Message": "What's your biggest turn-on?",
@@ -21,7 +21,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "3": {
         "Message": "What's your biggest turn-off?",
@@ -33,7 +33,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "4": {
         "Message": "Have you ever faked an orgasm?",
@@ -45,7 +45,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "5": {
         "Message": "What is your favourite porn category?",
@@ -57,7 +57,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 4,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "6": {
         "Message": "Have you ever had sex blackout drunk?",
@@ -69,7 +69,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "7": {
         "Message": "Have you ever fallen asleep during sex?",
@@ -81,7 +81,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "8": {
         "Message": "Have you ever filmed a sex tape?",
@@ -93,7 +93,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "9": {
         "Message": "What’s the largest age gap between you and your sexual partners?",
@@ -105,7 +105,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "10": {
         "Message": "Are you loud or silent in bed?",
@@ -117,7 +117,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 3,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "11": {
         "Message": "What's the most embarrassing thing that's happened to you during sex?",
@@ -129,7 +129,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "12": {
         "Message": "Have you ever farted during sex?",
@@ -141,7 +141,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "13": {
         "Message": "Have you ever fantasised about a teacher or boss?",
@@ -153,7 +153,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "14": {
         "Message": "Have you ever fantasised about somebody in this room?",
@@ -165,7 +165,7 @@
         "OptionOneValue": 5,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "15": {
         "Message": "Have you ever injured your genitals?",
@@ -177,7 +177,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "16": {
         "Message": "Have you had sex whilst still in school?",
@@ -189,7 +189,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "17": {
         "Message": "Would you hook up with someone in the room?",
@@ -201,7 +201,7 @@
         "OptionOneValue": 5,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "18": {
         "Message": "Have you ever fantasized about someone of the same sex?",
@@ -213,7 +213,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "19": {
         "Message": "Have you ever fantasized about someone of the opposite sex?",
@@ -225,7 +225,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "20": {
         "Message": "Who do you think is the most attractive from the group?",
@@ -247,7 +247,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 5,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "22": {
         "Message": "Tell us how you lost your virginity.",
@@ -259,7 +259,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "23": {
         "Message": "Let {player} nibble on your ear.",
@@ -271,7 +271,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 10,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "24": {
         "Message": "Take off your bra one handed, if you fail you drink.",
@@ -283,7 +283,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 6,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "25": {
         "Message": "Have you ever done it in someone's bed who wasn't participating?",
@@ -295,6 +295,6 @@
         "OptionOneValue": 5,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     }
 }

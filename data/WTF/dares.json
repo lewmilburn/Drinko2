@@ -9,6 +9,6 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 3,
         "CanSkip": true,
-        "Type": 2
+        "Mode": 2
     }
 }

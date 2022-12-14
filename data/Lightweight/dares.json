@@ -9,7 +9,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "2": {
         "Message": "Swap an item of clothing with another person",
@@ -21,7 +21,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "3": {
         "Message": "Spank the person to your left.",
@@ -33,7 +33,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "4": {
         "Message": "Twerk.",
@@ -45,7 +45,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "5": {
         "Message": "Pick someone in the room and message someone on one of their dating apps.",
@@ -57,7 +57,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "6": {
         "Message": "Attempt to impersonate everyone in the room.",
@@ -69,7 +69,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "7": {
         "Message": "Serenade the person to your right.",
@@ -81,7 +81,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "8": {
         "Message": "Do a shot",
@@ -93,7 +93,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "9": {
         "Message": "Lick someone's foot.",
@@ -105,7 +105,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "10": {
         "Message": "Tell a joke.",
@@ -117,7 +117,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "11": {
         "Message": "You have 30 seconds to make {player} laugh.",
@@ -129,7 +129,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "12": {
         "Message": "Do push-ups with {player} on your back.",
@@ -141,7 +141,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "13": {
         "Message": "Name the countries with the most attractive people. {player} should do this too.",
@@ -153,7 +153,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "14": {
         "Message": "Hold your breath for 30 seconds or drink 3 sips.",
@@ -165,7 +165,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "15": {
         "Message": "Say your 2 times table as fast as you can for 15 seconds.",
@@ -177,7 +177,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 5,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "16": {
         "Message": "Give a foot massage to the person on your right.",
@@ -189,7 +189,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "17": {
         "Message": "Say something dirty to the person on your left.",
@@ -201,7 +201,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "18": {
         "Message": "Give a lap dance to someone of your choice.",
@@ -213,7 +213,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "19": {
         "Message": "Everyone adds a bit of their drink to a cup, and you drink it.",
@@ -225,7 +225,7 @@
         "OptionOneValue": -1,
         "OptionTwoValue": 0,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "20": {
         "Message": "Tell everyone an embarrassing story about yourself.",
@@ -237,7 +237,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 5,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "21": {
         "Message": "Give a personalised insult to everyone in the room.",
@@ -249,7 +249,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 6,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "22": {
         "Message": "Eat five tablespoons of a condiment.",
@@ -261,7 +261,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "23": {
         "Message": "Sit in a spinning chair and have the group spin you for 30 seconds.",
@@ -273,7 +273,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "24": {
         "Message": "Let the group pose you in an embarrassing position and take a picture.",
@@ -285,7 +285,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "25": {
         "Message": "Remove four items of clothing.",
@@ -297,6 +297,6 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     }
 }

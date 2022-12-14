@@ -64,6 +64,7 @@ function LoadNextRound() {
     Log('LoadNextRound','started',4);
     ShowScreen(5, 3);
 
+    NextMode = null;
     NextMessage = null;
     NextSubmessage = null;
     NextOptionOne = null;

@@ -9,7 +9,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "2": {
         "Message": "Who do you think is the celebrity of the group?",
@@ -21,7 +21,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "3": {
         "Message": "Hands or feet?",
@@ -33,7 +33,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "4": {
         "Message": "What is the weirdest thing you have ever done in front of the mirror?",
@@ -45,7 +45,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "5": {
         "Message": "If you farted in the elevator, would you blame someone else or say excuse me?",
@@ -57,7 +57,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "6": {
         "Message": "Do you ever want to get married?",
@@ -69,7 +69,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 0,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "7": {
         "Message": "Do you want to have kids?",
@@ -81,7 +81,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 0,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "8": {
         "Message": "Describe your dream date.",
@@ -93,7 +93,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 1,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "9": {
         "Message": "What's your favourite alcohol?",
@@ -105,7 +105,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "10": {
         "Message": "What's your guilty pleasure film?",
@@ -117,7 +117,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "11": {
         "Message": "Do you pee in the shower?",
@@ -129,7 +129,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "12": {
         "Message": "What is your favourite flavour pie, pasty, or slice?",
@@ -141,7 +141,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "13": {
         "Message": "Name {player}'s parents.",
@@ -153,7 +153,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 4,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "14": {
         "Message": "Are you the kind of person to ask the DJ for song requests at the club?",
@@ -165,7 +165,7 @@
         "OptionOneValue": 3,
         "OptionTwoValue": 1,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "15": {
         "Message": "What age did you get wasted for the first time?",
@@ -177,7 +177,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": true,
-        "Type": 1
+        "Mode": 1
     },
     "16": {
         "Message": "What is the one food or drink you couldn't give up?",
@@ -189,7 +189,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 5,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "17": {
         "Message": "What is the one food or drink you couldn't give up?",
@@ -201,7 +201,7 @@
         "OptionOneValue": 0,
         "OptionTwoValue": 5,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "18": {
         "Message": "Have you watched any reality TV shows this week.",
@@ -213,7 +213,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "19": {
         "Message": "Have you ever had sex in public?",
@@ -225,7 +225,7 @@
         "OptionOneValue": 4,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "20": {
         "Message": "What age did you have your first kiss?",
@@ -237,7 +237,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "21": {
         "Message": "What's your hidden talent?",
@@ -249,7 +249,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 3,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "22": {
         "Message": "Close your eyes. Is the other player wearing a necklace?",
@@ -261,7 +261,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Type": 2
+        "Mode": 2
     },
     "23": {
         "Message": "Close your eyes. What is the main colour of the other person's outfit?",
@@ -273,7 +273,7 @@
         "OptionOneValue": 1,
         "OptionTwoValue": 4,
         "CanSkip": false,
-        "Type": 2
+        "Mode": 2
     },
     "24": {
         "Message": "Have you ever worn crocs?",
@@ -285,7 +285,7 @@
         "OptionOneValue": 2,
         "OptionTwoValue": 2,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     },
     "25": {
         "Message": "Have you ever driven whilst drunk or high?",
@@ -297,6 +297,6 @@
         "OptionOneValue": 10,
         "OptionTwoValue": 0,
         "CanSkip": false,
-        "Type": 1
+        "Mode": 1
     }
 }
