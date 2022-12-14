@@ -1,3 +1,6 @@
+let NextQuestionID;
+let NextTypeID;
+
 function GetNextType() {
     Log('GetNextType','started',4);
 
@@ -62,6 +65,10 @@ function GetRandomQuestion() {
         NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
         NextOptionTwoColour = Truths[TruthNumber].OptionTwoColour;
 
+        // For debugging purposes.
+        NextQuestionID = TruthNumber;
+        NextTypeID = 0;
+
         Log('GetRandomQuestion','Type: ' + Type + ' - Number: '+TruthNumber+' - Mode: '+NextMode,3);
 
         Truths.splice(TruthNumber, 1);
@@ -77,6 +84,10 @@ function GetRandomQuestion() {
         NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
         NextOptionOneColour = Dares[DareNumber].OptionOneColour;
         NextOptionTwoColour = Dares[DareNumber].OptionTwoColour;
+
+        // For debugging purposes.
+        NextQuestionID = DareNumber;
+        NextTypeID = 1;
 
         Log('GetRandomQuestion','Type: ' + Type + ' - Number: '+DareNumber+' - Mode: '+NextMode,3);
 

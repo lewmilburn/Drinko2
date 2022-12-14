@@ -103,8 +103,11 @@ function Answer(Number) {
 
     let Punishment = document.getElementById('Punishment')
 
-    if (NextMode === 1) {
+    if (NextMode === 1 || NextMode === undefined) {
         document.getElementById('PlayerNamePunishment').innerText = NextPlayer;
+        if (NextMode === undefined) {
+            Log('Answer', 'Mode is undefined. Type:'+NextTypeID +' Question:'+NextQuestionID);
+        }
     } else if (NextMode === 2) {
         document.getElementById('PlayerNamePunishment').innerText = NextPlayer+' and '+NextSecondPlayer;
     }
