@@ -130,7 +130,7 @@ function DisplayScreen(number) {
                 <option value="10">5 Rounds</option>
             </select>
             <br><br>
-            <div class="snap-x snap-mandatory">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 <button class="btn-mode-select btn-green snap-center" onClick="LoadGame('Lightweight');">
                     Lightweight
                 </button>
