@@ -161,7 +161,7 @@ function DisplayScreen(number) {
             <p class="text-body mb-6" id="Submessage">
                 Error 1
             </p>
-            <div class="grid grid-cols-2 game-buttons">
+            <div class="grid grid-cols-1 md:grid-cols-2 game-buttons">
                 <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
                     Error 1
                 </button>
@@ -221,7 +221,7 @@ function DisplayScreen(number) {
                 Error 1
             </p>
             <br>
-            <div class="grid grid-cols-3 game-buttons">
+            <div class="grid grid-cols-1 md:grid-cols-3 game-buttons">
                 <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
                     Error 1
                 </button>
