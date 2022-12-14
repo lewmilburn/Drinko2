@@ -131,16 +131,18 @@ function DisplayScreen(number) {
             </select>
             <br><br>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
-                <button class="btn-mode-select btn-green snap-center" onClick="LoadGame('Lightweight');">
+                <button class="btn-mode-select btn-green" onClick="LoadGame('Lightweight');">
                     Lightweight
+                    <span class="absolute top-1 right-1 text-white text-xs">NEW</span>
                 </button>
-                <button class="btn-mode-select btn-yellow snap-center" onClick="LoadGame('Dirty');">
+                <button class="btn-mode-select btn-yellow" onClick="LoadGame('Dirty');">
+                    <span class="absolute top-1 right-1 text-white text-xs">NEW</span>
                     Dirty
                 </button>
-                <button class="btn-mode-select btn-red snap-center" onClick="alert('Coming soon...');">
+                <button class="btn-mode-select btn-red" onClick="alert('Coming soon...');">
                     WTF
                 </button>
-                <button class="btn-mode-select btn-red snap-center" onClick="alert('Coming soon...');">
+                <button class="btn-mode-select btn-red" onClick="alert('Coming soon...');">
                     Hardcore
                 </button>
             </div>
