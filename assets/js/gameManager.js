@@ -95,35 +95,28 @@ function GetRandomPlayer() {
     Log('GetRandomPlayer','started',4);
 
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
+
+    if (Round >= Object.keys(Players).length) {
+        PlayerID = GetUserLowestTurns();
+    }
+
     NextPlayer = Object.keys(Players)[PlayerID];
     NextPlayerID = PlayerID;
-
-    TestLowestRandom();
 
     Log('GetRandomPlayer','Selected: ' + NextPlayerID,3);
     Log('GetRandomPlayer','ended',4);
 }
 
-function TestLowestRandom() {
+function GetUserLowestTurns() {
     Log('TestLowestRandom','started',4);
-    let lowest = [];
-    let lowestValue = 0;
-    for (let key in Turns) {
-        if (Turns.hasOwnProperty(key)) {
-            if (lowestValue === 0) {
-                lowestValue = Turns[key];
-            lowest.push(key);
-            } else if (Turns[key] < lowestValue) {
-                lowestValue = Turns[key];
-                lowest = [];
-                lowest.push(key);
-            } else if (Turns[key] === lowestValue) {
-                lowest.push(key);
-            }
-        }
-    }
-    let random = Math.floor(Math.random() * lowest.length);
-    Log('TestLowestRandom','Selected ' + lowest[random],3);
+
+    let LowerstUser = Object.keys(Turns).reduce((acc, val) => {
+        return Math.min(acc, Turns[val]);
+    }, Infinity);
+
+    Log('TestLowestRandom','Selected ' + LowerstUser,3);
+
+    return LowerstUser
     Log('TestLowestRandom','ended',4);
 }
 
