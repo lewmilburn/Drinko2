@@ -1,17 +1,3 @@
-let NextMessage;
-let NextSubmessage;
-let NextOptionOne;
-let NextOptionOneColour;
-let NextOptionOneValue;
-let NextOptionTwo;
-let NextOptionTwoColour;
-let NextOptionTwoValue;
-let NextPlayer;
-let NextSecondPlayer;
-let NextMode;
-let NextCanSkip;
-let Round = 0;
-
 function StartGame() {
     Log('StartGame','started',4);
     

@@ -79,23 +79,21 @@ function GetUserLowestTurns() {
 function GetRandomReplacePlayer() {
     Log('GetRandomReplacePlayer','started',4);
 
-    let ReplacePlayer = "";
-
     while (true) {
         let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
-        ReplacePlayer = Object.keys(Players)[PlayerID];
-        if (ReplacePlayer !== NextPlayer) {
-            Log('GetRandomReplacePlayer','Break RP: '+ReplacePlayer+' - NP: '+NextPlayer,3);
+        NextSecondPlayer = Object.keys(Players)[PlayerID];
+        if (NextSecondPlayer !== NextPlayer) {
+            Log('GetRandomReplacePlayer','Break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
             break;
         } else {
-            Log('GetRandomReplacePlayer','No break RP: '+ReplacePlayer+' - NP: '+NextPlayer,3);
+            Log('GetRandomReplacePlayer','No break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
         }
     }
 
-    Log('GetRandomReplacePlayer','Selected: ' + ReplacePlayer,3);
+    Log('GetRandomReplacePlayer','Selected: ' + NextSecondPlayer,3);
     Log('GetRandomReplacePlayer','ended',4);
 
-    return ReplacePlayer;
+    return NextSecondPlayer;
 }
 
 function Replace(Subject,Replacement) {

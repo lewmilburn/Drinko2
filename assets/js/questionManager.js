@@ -1,6 +1,3 @@
-let NextQuestionID;
-let NextTypeID;
-
 function GetNextType() {
     Log('GetNextType','started',4);
 

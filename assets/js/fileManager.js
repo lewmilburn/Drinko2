@@ -1,8 +1,3 @@
-let Truths = [];
-let Dares = [];
-let Triggered = false;
-let MaxRounds;
-
 function LoadGame(mode) {
     Log('LoadGame','started',4);
     if (Object.keys(Players).length > 1) {

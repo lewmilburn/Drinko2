@@ -1,5 +1,3 @@
-let Level = 0;
-
 function Log(funct, message, type) {
     let Alert = document.getElementById('alert-error');
     if (Level >= type) {
