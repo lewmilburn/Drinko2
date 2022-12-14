@@ -95,14 +95,10 @@ function GetRandomPlayer() {
 
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
 
-    if (Round >= Object.keys(Players).length * 2) {
-        if(Math.floor(Math.random() * 2) == 0) {
-            NextPlayer = GetUserLowestTurns();
-        } else {
-            NextPlayer = Object.keys(Players)[PlayerID];
-        }
+    if (Math.floor(Math.random() * 2) == 0) {
+        NextPlayer = GetUserLowestTurns();
     } else {
-        NextPlayer = Object.keys(Players)[PlayerID];
+            NextPlayer = Object.keys(Players)[PlayerID];
     }
 
     Log('GetRandomPlayer','Selected: ' + NextPlayer,3);
