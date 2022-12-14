@@ -56,6 +56,7 @@ function GetRandomQuestion() {
         let TruthNumber = Math.floor(Math.random() * (Truths.length));
 
         NextMode = Truths[TruthNumber].Mode;
+        NextCanSkip = Truths[TruthNumber].CanSkip;
         NextMessage = Replace(Truths[TruthNumber].Message, NextSecondPlayer);
         NextSubmessage = Replace(Truths[TruthNumber].Submessage, NextSecondPlayer);
         NextOptionOne = Replace(Truths[TruthNumber].OptionOne, NextSecondPlayer);

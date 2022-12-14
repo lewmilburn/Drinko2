@@ -9,6 +9,7 @@ let NextOptionTwoValue;
 let NextPlayer;
 let NextSecondPlayer;
 let NextMode;
+let NextCanSkip;
 let Round = 0;
 
 function StartGame() {
@@ -62,9 +63,15 @@ function NextRound() {
 
 function LoadNextRound() {
     Log('LoadNextRound','started',4);
-    ShowScreen(5, 3);
+
+    if (NextCanSkip) {
+        ShowScreen(3, 7);
+    } else {
+        ShowScreen(7, 3);
+    }
 
     NextMode = null;
+    NextCanSkip = null;
     NextMessage = null;
     NextSubmessage = null;
     NextOptionOne = null;
