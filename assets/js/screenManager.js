@@ -130,7 +130,7 @@ function DisplayScreen(number) {
                 <option value="10">5 Rounds</option>
             </select>
             <br><br>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
                 <button class="btn-mode-select btn-green" onClick="LoadGame('Lightweight');">
                     Lightweight
                     <span class="absolute top-1 right-1 text-white text-xs">NEW</span>
