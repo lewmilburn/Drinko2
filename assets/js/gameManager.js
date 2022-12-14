@@ -124,15 +124,15 @@ function Answer(Number) {
         } else {
             Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
             if (NextMode === 1) {
-                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionOneValue;
-                let contentsTwo = Player+': '+ Players[Player]+NextOptionOneValue;
+                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionOneValue;
+                let contentsTwo = NextPlayer+': '+ Players[NextPlayer]+NextOptionOneValue;
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
                 LeaderboardAdd(NextPlayer, NextOptionOneValue);
             } else if (NextMode === 2) {
-                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionOneValue;
-                let contentsTwo = Player+': '+ Players[Player] + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionOneValue;
+                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionOneValue;
+                let contentsTwo = NextPlayer+': '+ Players[NextPlayer] + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionOneValue;
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
@@ -147,15 +147,15 @@ function Answer(Number) {
         } else {
             Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
             if (NextMode === 1) {
-                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionTwoValue;
-                let contentsTwo = Player+': '+ Players[Player]+NextOptionTwoValue;
+                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionTwoValue;
+                let contentsTwo = NextPlayer+': '+ Players[NextPlayer]+NextOptionTwoValue;
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
                 LeaderboardAdd(NextPlayer, NextOptionTwoValue);
             } else if (NextMode === 2) {
-                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionTwoValue;
-                let contentsTwo = Player+': '+ Players[Player] + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionTwoValue;
+                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionTwoValue;
+                let contentsTwo = NextPlayer+': '+ Players[NextPlayer] + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionTwoValue;
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
