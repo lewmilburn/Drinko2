@@ -39,8 +39,11 @@ function LeaderboardAdd(Player, Amount) {
     Players[Player] += Amount;
 
     setTimeout(function() {
-        PSP.classList.add('hidden');
-    }, 5000);
+        PSP.innerText = Player+': '+Players[Player];
+        setTimeout(function() {
+            PSP.classList.add('hidden');
+            }, 3000);
+    }, 2000);
 
     Log('LeaderboardAdd','started',4);
 }
