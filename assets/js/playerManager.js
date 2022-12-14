@@ -29,18 +29,18 @@ function AddPlayer() {
     Log('AddPlayer','ended',4);
 }
 
-function GetPlayerScore(Player) {
-    Log('GetPlayerScore','started',4);
-
-    console.log(Players[Player]);
-
-    Log('GetPlayerScore','ended',4);
-}
-
 function LeaderboardAdd(Player, Amount) {
     Log('LeaderboardAdd','started',4);
 
+    let PSP = document.getElementById('PlayerScorePopup');
+    PSP.innerText = Player+': '+Players[Player]+'+'+Amount;
+    PSP.classList.remove('hidden');
+
     Players[Player] += Amount;
+
+    setTimeout(function() {
+        PSP.classList.add('hidden');
+    }, 5000);
 
     Log('LeaderboardAdd','started',4);
 }
