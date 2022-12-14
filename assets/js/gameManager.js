@@ -125,14 +125,14 @@ function Answer(Number) {
             Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
             if (NextMode === 1) {
                 let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionOneValue;
-                let contentsTwo = NextPlayer+': '+ Players[NextPlayer]+NextOptionOneValue;
+                let contentsTwo = NextPlayer+': '+ (Players[NextPlayer]+NextOptionOneValue);
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
                 LeaderboardAdd(NextPlayer, NextOptionOneValue);
             } else if (NextMode === 2) {
                 let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionOneValue;
-                let contentsTwo = NextPlayer+': '+ Players[NextPlayer] + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionOneValue;
+                let contentsTwo = NextPlayer+': '+ (Players[NextPlayer] + NextOptionOneValue) + '<br>' + NextSecondPlayer+': '+ (Players[NextSecondPlayer] + NextOptionOneValue);
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
