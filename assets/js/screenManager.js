@@ -159,8 +159,7 @@ function DisplayScreen(number) {
             <p class="text-body mb-6" id="Submessage">
                 Error 1
             </p>
-            <br>
-            <div class="grid grid-cols-2 gap-2">
+            <div class="grid grid-cols-2 gap-2 absolute bottom-8">
                 <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
                     Error 1
                 </button>
