@@ -226,7 +226,7 @@ function DisplayScreen(number) {
                 <button id="OptionTwo" class="btn-game-option btn-red" onClick="Answer(2)">
                     Error 1
                 </button>
-                <button id="Skip" class="btn-game-option btn-blue col-span-2" onClick="Answer(2)">
+                <button id="Skip" class="btn-game-option btn-blue" onClick="Answer(2)">
                     Skip
                 </button>
             </div>
