@@ -96,7 +96,11 @@ function GetRandomPlayer() {
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
 
     if (Round >= Object.keys(Players).length * 2) {
-        NextPlayer = GetUserLowestTurns();
+        if(Math.floor(Math.random() * 2) == 0) {
+            NextPlayer = GetUserLowestTurns();
+        } else {
+            NextPlayer = Object.keys(Players)[PlayerID];
+        }
     } else {
         NextPlayer = Object.keys(Players)[PlayerID];
     }
