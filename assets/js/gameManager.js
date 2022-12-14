@@ -98,7 +98,7 @@ function GetRandomPlayer() {
     if (Math.floor(Math.random() * 2) == 0) {
         NextPlayer = GetUserLowestTurns();
     } else {
-            NextPlayer = Object.keys(Players)[PlayerID];
+        NextPlayer = Object.keys(Players)[PlayerID];
     }
 
     Log('GetRandomPlayer','Selected: ' + NextPlayer,3);
