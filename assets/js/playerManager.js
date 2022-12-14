@@ -32,18 +32,7 @@ function AddPlayer() {
 function LeaderboardAdd(Player, Amount) {
     Log('LeaderboardAdd','started',4);
 
-    let PSP = document.getElementById('PlayerScorePopup');
-    PSP.innerText = Player+': '+Players[Player]+'+'+Amount;
-    PSP.classList.remove('hidden');
-
     Players[Player] += Amount;
-
-    setTimeout(function() {
-        PSP.innerText = Player+': '+Players[Player];
-        setTimeout(function() {
-            PSP.classList.add('hidden');
-            }, 3000);
-    }, 2000);
 
     Log('LeaderboardAdd','started',4);
 }

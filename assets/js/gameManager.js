@@ -135,7 +135,22 @@ function Answer(Number) {
         } else {
             Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
             LeaderboardAdd(NextPlayer, NextOptionTwoValue);
-            if (NextMode === 2) {
+            let PSP = document.getElementById('PlayerScorePopup');
+            PSP.classList.remove('hidden');
+            if (NextMode === 1) {
+                setTimeout(function() {
+                    PSP.innerText = Player+': '+Players[Player];
+                    setTimeout(function() {
+                        PSP.classList.add('hidden');
+                        }, 3000);
+                    }, 2000);
+            } else if (NextMode === 2) {
+                setTimeout(function() {
+                    PSP.innerText = Player+': '+Players[Player]+'<br>'+NextSecondPlayer+': '+Players[NextSecondPlayer];
+                    setTimeout(function() {
+                        PSP.classList.add('hidden');
+                        }, 3000);
+                    }, 2000);
                 LeaderboardAdd(NextSecondPlayer, NextOptionTwoValue);
             }
         }
