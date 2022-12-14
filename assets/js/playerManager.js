@@ -69,8 +69,8 @@ function GetUserLowestTurns() {
 
     Log('GetUserLowestTurns','Selected ' + LowestUser,3);
 
-    return LowestUser
     Log('GetUserLowestTurns','ended',4);
+    return LowestUser
 }
 
 function GetRandomReplacePlayer() {
