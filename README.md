@@ -3,6 +3,13 @@ The sequel to the much loved Drinko game.
 
 Drinko!2 is a game inspired by the mobile app Drinkopoly designed to get you drunk.
 
+# Playing Drinko!2
+To play Drinko!2 you can either download it and host it yourself or visit drinko.co.uk to play on our hosted instance. drinko.co.uk always has the most up-to-date version of the game automatically uploaded from our GitHub.
+
+To play simply enter you and your friends names (2-20 players) and select one of the four games to play! There's Lightweight, Dirty, WTF, and Hardcore games you can play.
+
+You must be 18+ to play.
+
 # Disclaimer
 This game is dirty and contains adult themes, don't play it with your parents.
 
