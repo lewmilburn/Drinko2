@@ -67,7 +67,6 @@ function GetRandomQuestion() {
         Truths.splice(TruthNumber, 1);
     } else if (Type === 1) {
         let DareNumber = Math.floor(Math.random() * (Dares.length));
-        Log('GetRandomQuestion','Type: ' + Type + ' - DareNumber: '+DareNumber,3);
 
         NextMode = Dares[DareNumber].Mode;
         NextMessage = Replace(Dares[DareNumber].Message, NextSecondPlayer);
@@ -78,6 +77,8 @@ function GetRandomQuestion() {
         NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
         NextOptionOneColour = Dares[DareNumber].OptionOneColour;
         NextOptionTwoColour = Dares[DareNumber].OptionTwoColour;
+
+        Log('GetRandomQuestion','Type: ' + Type + ' - Number: '+DareNumber+' - Mode: '+NextMode,3);
 
         Dares.splice(DareNumber, 1);
     }
