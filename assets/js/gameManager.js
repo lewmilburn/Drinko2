@@ -71,8 +71,8 @@ function LoadNextRound() {
     let Submessage = document.getElementById('Submessage');
     let PlayerName = document.getElementById('PlayerName');
 
-    GetRandomQuestion();
     GetRandomPlayer();
+    GetRandomQuestion();
 
     PlayerName.innerHTML = NextPlayer;
     Message.innerHTML = NextMessage;
