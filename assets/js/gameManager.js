@@ -7,7 +7,6 @@ let NextOptionTwo;
 let NextOptionTwoColour;
 let NextOptionTwoValue;
 let NextPlayer;
-let NextPlayerID;
 let Round = 0;
 
 function StartGame() {
@@ -97,27 +96,26 @@ function GetRandomPlayer() {
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
 
     if (Round >= Object.keys(Players).length) {
-        PlayerID = GetUserLowestTurns();
+        NextPlayer = GetUserLowestTurns();
+    } else {
+        NextPlayer = Object.keys(Players)[PlayerID];
     }
 
-    NextPlayer = Object.keys(Players)[PlayerID];
-    NextPlayerID = PlayerID;
-
-    Log('GetRandomPlayer','Selected: ' + NextPlayerID,3);
+    Log('GetRandomPlayer','Selected: ' + NextPlayer,3);
     Log('GetRandomPlayer','ended',4);
 }
 
 function GetUserLowestTurns() {
-    Log('TestLowestRandom','started',4);
+    Log('GetUserLowestTurns','started',4);
 
-    let LowerstUser = Object.keys(Turns).reduce((acc, val) => {
+    let LowestUser = Object.keys(Turns).find(key => Turns[key] === (Object.keys(Turns).reduce((acc, val) => {
         return Math.min(acc, Turns[val]);
-    }, Infinity);
+        }, Infinity)));
 
-    Log('TestLowestRandom','Selected ' + LowerstUser,3);
+    Log('GetUserLowestTurns','Selected ' + LowerstUser,3);
 
     return LowerstUser
-    Log('TestLowestRandom','ended',4);
+    Log('GetUserLowestTurns','ended',4);
 }
 
 function GetRandomReplacePlayer() {

@@ -118,7 +118,7 @@ function DisplayScreen(number) {
                 Who's playing?
             </p>
             <div class="mb-6">
-                <input id="HomeAddPlayer" class="input">
+                <input id="HomeAddPlayer" class="input" maxlength="10">
                 <button class="btn-sm btn-blue" onClick="AddPlayer();">Add</button>
             </div>
             <ul id="HomePlayerList"></ul>
