@@ -123,8 +123,20 @@ function Answer(Number) {
             return;
         } else {
             Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
-            LeaderboardAdd(NextPlayer, NextOptionOneValue);
-            if (NextMode === 2) {
+            if (NextMode === 1) {
+                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionOneValue;
+                let contentsTwo = Player+': '+ Players[Player]+NextOptionOneValue;
+
+                PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
+
+                LeaderboardAdd(NextPlayer, NextOptionOneValue);
+            } else if (NextMode === 2) {
+                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionOneValue;
+                let contentsTwo = Player+': '+ Players[Player] + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionOneValue;
+
+                PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
+
+                LeaderboardAdd(NextPlayer, NextOptionOneValue);
                 LeaderboardAdd(NextSecondPlayer, NextOptionOneValue);
             }
         }
@@ -134,23 +146,20 @@ function Answer(Number) {
             return;
         } else {
             Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
-            LeaderboardAdd(NextPlayer, NextOptionTwoValue);
-            let PSP = document.getElementById('PlayerScorePopup');
-            PSP.classList.remove('hidden');
             if (NextMode === 1) {
-                setTimeout(function() {
-                    PSP.innerText = Player+': '+Players[Player];
-                    setTimeout(function() {
-                        PSP.classList.add('hidden');
-                        }, 3000);
-                    }, 2000);
+                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionTwoValue;
+                let contentsTwo = Player+': '+ Players[Player]+NextOptionTwoValue;
+
+                PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
+
+                LeaderboardAdd(NextPlayer, NextOptionTwoValue);
             } else if (NextMode === 2) {
-                setTimeout(function() {
-                    PSP.innerText = Player+': '+Players[Player]+'<br>'+NextSecondPlayer+': '+Players[NextSecondPlayer];
-                    setTimeout(function() {
-                        PSP.classList.add('hidden');
-                        }, 3000);
-                    }, 2000);
+                let contentsOne = Player+': '+ Players[Player] + ' +' + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionTwoValue;
+                let contentsTwo = Player+': '+ Players[Player] + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionTwoValue;
+
+                PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
+
+                LeaderboardAdd(NextPlayer, NextOptionTwoValue);
                 LeaderboardAdd(NextSecondPlayer, NextOptionTwoValue);
             }
         }
