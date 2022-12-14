@@ -13,7 +13,7 @@ function AddPlayer() {
 
     let List = document.getElementById("HomePlayerList");
 
-    if (Object.keys(Players).length < 10) {
+    if (Object.keys(Players).length <= 15) {
         if (List.innerHTML === null) {
             List.innerHTML = '<li>' + Player + '</li>';
         } else {
