@@ -159,7 +159,7 @@ function DisplayScreen(number) {
             <p class="text-body mb-6" id="Submessage">
                 Error 1
             </p>
-            <div class="grid grid-cols-2 gap-2 absolute bottom-8">
+            <div class="grid grid-cols-2 game-buttons">
                 <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
                     Error 1
                 </button>
@@ -190,7 +190,7 @@ function DisplayScreen(number) {
                 Error 1
             </p>
             <br>
-            <div class="grid grid-cols-1 gap-2 absolute bottom-8">
+            <div class="grid grid-cols-1 game-buttons">
                 <button id="NextRound" class="btn-game-option btn-blue" onClick="NextRound()">
                     Next
                 </button>
@@ -219,7 +219,7 @@ function DisplayScreen(number) {
                 Error 1
             </p>
             <br>
-            <div class="grid grid-cols-3 gap-2 absolute bottom-8">
+            <div class="grid grid-cols-3 game-buttons">
                 <button id="OptionOne" class="btn-game-option btn-green" onClick="Answer(1)">
                     Error 1
                 </button>

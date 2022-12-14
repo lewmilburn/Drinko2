@@ -47,6 +47,11 @@
     @apply bg-blue-500 hover:bg-blue-400
 }
 
+/* Layouts */
+.game-buttons {
+    @apply gap-2 absolute bottom-4 w-screen px-6 sm:px-12 md:px-24 lg:px-48
+}
+
 /* Input Box */
 .input {
     @apply rounded-md border dark:border-neutral-900 dark:bg-neutral-700 bg-neutral-100 bg-neutral-300 px-2 py-1 appearance-none
