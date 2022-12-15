@@ -1,8 +1,14 @@
 {
     "1": {
-        "Message": "This is a test truth.",
-        "Submessage": "This is a test truth sub-message",
-        "Yes": 0,
-        "No": 0
+        "Message": "If you have ever ended up somewhere random without remembering how you got their, drink 3 sips.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 1,
+        "CanSkip": false,
+        "Mode": 1
     }
 }

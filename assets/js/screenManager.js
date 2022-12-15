@@ -143,8 +143,8 @@ function DisplayScreen(number) {
                     <span class="absolute top-1 right-1 text-white text-xs">25</span>
                     WTF
                 </button>
-                <button class="btn-mode-select btn-red" onClick="alert('Coming soon...');">
-                    <span class="absolute top-1 right-1 text-white text-xs">COMING SOON</span>
+                <button class="btn-mode-select btn-red" onClick="LoadGame('Hardcore');">
+                    <span class="absolute top-1 right-1 text-white text-xs">15</span>
                     Hardcore
                 </button>
             </div>
