@@ -131,8 +131,8 @@ function Answer(Number) {
 
                 LeaderboardAdd(NextPlayer, NextOptionOneValue);
             } else if (NextMode === 2) {
-                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionOneValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionOneValue;
-                let contentsTwo = NextPlayer+': '+ (Players[NextPlayer] + NextOptionOneValue) + '<br>' + NextSecondPlayer+': '+ (Players[NextSecondPlayer] + NextOptionOneValue);
+                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' + ' + NextOptionOneValue + '\n' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' + ' + NextOptionOneValue;
+                let contentsTwo = NextPlayer+': '+ (Players[NextPlayer] + NextOptionOneValue) + '\n' + NextSecondPlayer+': '+ (Players[NextSecondPlayer] + NextOptionOneValue);
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
@@ -154,8 +154,8 @@ function Answer(Number) {
 
                 LeaderboardAdd(NextPlayer, NextOptionTwoValue);
             } else if (NextMode === 2) {
-                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' +' + NextOptionTwoValue;
-                let contentsTwo = NextPlayer+': '+ Players[NextPlayer] + NextOptionTwoValue + '<br>' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + NextOptionTwoValue;
+                let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' + ' + NextOptionTwoValue + '\n' + NextSecondPlayer+': '+ Players[NextSecondPlayer] + ' + ' + NextOptionTwoValue;
+                let contentsTwo = NextPlayer+': '+ (Players[NextPlayer] + NextOptionTwoValue) + '\n' + NextSecondPlayer+': '+ (Players[NextSecondPlayer] + NextOptionTwoValue);
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 
