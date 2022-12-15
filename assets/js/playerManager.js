@@ -16,7 +16,7 @@ function AddPlayer() {
     if (Object.keys(Players).length <= 15) {
         if (Player === '69') { alert('Nice ;)'); }
         else if (Player === '420') { alert('Blaze it!'); }
-        else if (Play === '') {return;}
+        else if (Player === '') {return;}
 
         if (List.innerHTML === null) {
             List.innerHTML = '<li>' + Player + '</li>';
