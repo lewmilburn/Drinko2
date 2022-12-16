@@ -50,7 +50,7 @@ function NextRound() {
 function LoadNextRound() {
     Log('LoadNextRound','started',4);
 
-    if (NextCanSkip) {
+    if (NextCanSkip === true) {
         ShowScreen(3, 7);
     } else {
         ShowScreen(7, 3);
@@ -122,7 +122,11 @@ function Answer(Number) {
             NextRound();
             return;
         } else {
-            Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
+            if (NextOptionOneValue === 1) {
+                Punishment.innerText = "Drink " + NextOptionOneValue + " sip.";
+            } else {
+                Punishment.innerText = "Drink " + NextOptionOneValue + " sips.";
+            }
             if (NextMode === 1) {
                 let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionOneValue;
                 let contentsTwo = NextPlayer+': '+ (Players[NextPlayer]+NextOptionOneValue);
@@ -145,10 +149,14 @@ function Answer(Number) {
             NextRound();
             return;
         } else {
-            Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
+            if (NextOptionTwoValue === 1) {
+                Punishment.innerText = "Drink " + NextOptionTwoValue + " sip.";
+            } else {
+                Punishment.innerText = "Drink " + NextOptionTwoValue + " sips.";
+            }
             if (NextMode === 1) {
                 let contentsOne = NextPlayer+': '+ Players[NextPlayer] + ' +' + NextOptionTwoValue;
-                let contentsTwo = NextPlayer+': '+ Players[NextPlayer]+NextOptionTwoValue;
+                let contentsTwo = NextPlayer+': '+ (Players[NextPlayer]+NextOptionTwoValue);
 
                 PlayerScorePopupDelay(contentsOne, contentsTwo, 2000, 3000);
 

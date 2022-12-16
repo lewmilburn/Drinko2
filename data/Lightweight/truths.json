@@ -192,7 +192,7 @@
         "Mode": 1
     },
     "17": {
-        "Message": "What is the one food or drink you couldn't give up?",
+        "Message": "What is the one food or drink you can't stand?",
         "Submessage": "If the others agree you are saved, but if they disagree you drink!",
         "OptionOne": "I'm saved",
         "OptionTwo": "Oh no",

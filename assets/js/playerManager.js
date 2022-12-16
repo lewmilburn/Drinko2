@@ -16,7 +16,7 @@ function AddPlayer() {
     if (Object.keys(Players).length <= 15) {
         if (Player === '69') { alert('Nice ;)'); }
         else if (Player === '420') { alert('Blaze it!'); }
-        else if (Player === '') {return;}
+        else if (Player === '') { return; }
 
         if (List.innerHTML === null) {
             List.innerHTML = '<li>' + Player + '</li>';
@@ -71,7 +71,13 @@ function GetRandomReplacePlayer() {
 
     while (true) {
         let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
-        NextSecondPlayer = Object.keys(Players)[PlayerID];
+
+        if (Math.floor(Math.random() * 2) == 0) {
+            NextPlayer = GetUserLowestTurns();
+        } else {
+            NextPlayer = Object.keys(Players)[PlayerID];
+        }
+
         if (NextSecondPlayer !== NextPlayer) {
             Log('GetRandomReplacePlayer','Break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
             break;

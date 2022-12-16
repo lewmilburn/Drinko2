@@ -52,20 +52,7 @@ function GetRandomQuestion() {
     if (Type === 0) {
         let TruthNumber = Math.floor(Math.random() * (Truths.length));
 
-        NextMode = Truths[TruthNumber].Mode;
-        NextCanSkip = Truths[TruthNumber].CanSkip;
-        NextMessage = Replace(Truths[TruthNumber].Message, NextSecondPlayer);
-        NextSubmessage = Replace(Truths[TruthNumber].Submessage, NextSecondPlayer);
-        NextOptionOne = Replace(Truths[TruthNumber].OptionOne, NextSecondPlayer);
-        NextOptionTwo = Replace(Truths[TruthNumber].OptionTwo, NextSecondPlayer);
-        NextOptionOneValue = Truths[TruthNumber].OptionOneValue;
-        NextOptionTwoValue = Truths[TruthNumber].OptionTwoValue;
-        NextOptionOneColour = Truths[TruthNumber].OptionOneColour;
-        NextOptionTwoColour = Truths[TruthNumber].OptionTwoColour;
-
-        // For debugging purposes.
-        NextQuestionID = TruthNumber;
-        NextTypeID = 0;
+        SetNextValues(Truths, TruthNumber, 0);
 
         Log('GetRandomQuestion','Type: ' + Type + ' - Number: '+TruthNumber+' - Mode: '+NextMode,3);
 
@@ -73,19 +60,7 @@ function GetRandomQuestion() {
     } else if (Type === 1) {
         let DareNumber = Math.floor(Math.random() * (Dares.length));
 
-        NextMode = Dares[DareNumber].Mode;
-        NextMessage = Replace(Dares[DareNumber].Message, NextSecondPlayer);
-        NextSubmessage = Replace(Dares[DareNumber].Submessage, NextSecondPlayer);
-        NextOptionOne = Replace(Dares[DareNumber].OptionOne, NextSecondPlayer);
-        NextOptionTwo = Replace(Dares[DareNumber].OptionTwo, NextSecondPlayer);
-        NextOptionOneValue = Dares[DareNumber].OptionOneValue;
-        NextOptionTwoValue = Dares[DareNumber].OptionTwoValue;
-        NextOptionOneColour = Dares[DareNumber].OptionOneColour;
-        NextOptionTwoColour = Dares[DareNumber].OptionTwoColour;
-
-        // For debugging purposes.
-        NextQuestionID = DareNumber;
-        NextTypeID = 1;
+        SetNextValues(Dares, DareNumber, 1);
 
         Log('GetRandomQuestion','Type: ' + Type + ' - Number: '+DareNumber+' - Mode: '+NextMode,3);
 
@@ -93,4 +68,25 @@ function GetRandomQuestion() {
     }
 
     Log('GetRandomQuestion','ended',4);
+}
+
+function SetNextValues(Arr, ItemNumber, Type) {
+    Log('SetNextValues','started',4);
+    
+    NextMode = Arr[ItemNumber].Mode;
+    NextCanSkip = Arr[ItemNumber].CanSkip;
+    NextMessage = Replace(Arr[ItemNumber].Message, NextSecondPlayer);
+    NextSubmessage = Replace(Arr[ItemNumber].Submessage, NextSecondPlayer);
+    NextOptionOne = Replace(Arr[ItemNumber].OptionOne, NextSecondPlayer);
+    NextOptionTwo = Replace(Arr[ItemNumber].OptionTwo, NextSecondPlayer);
+    NextOptionOneValue = Arr[ItemNumber].OptionOneValue;
+    NextOptionTwoValue = Arr[ItemNumber].OptionTwoValue;
+    NextOptionOneColour = Arr[ItemNumber].OptionOneColour;
+    NextOptionTwoColour = Arr[ItemNumber].OptionTwoColour;
+
+    // For debugging purposes.
+    NextQuestionID = ItemNumber;
+    NextTypeID = Type;
+
+    Log('SetNextValues','ended',4);
 }

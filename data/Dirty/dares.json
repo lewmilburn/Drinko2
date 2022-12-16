@@ -164,7 +164,7 @@
         "OptionTwoColour": "red",
         "OptionOneValue": 0,
         "OptionTwoValue": 3,
-        "CanSkip": false,
+        "CanSkip": true,
         "Mode": 1
     },
     "15": {
