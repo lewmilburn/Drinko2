@@ -35,10 +35,10 @@ function NextRound() {
     Round = Round + 1;
 
     if (MaxRounds === '-1') {
-        RoundCounter.innerText = 'Round ' + Round;
+        RoundCounter.innerText = Gamemode + ' Round ' + Round;
         LoadNextRound();
     } else if (MaxRounds >= Round) {
-        RoundCounter.innerText = 'Round ' + Round + '/' + MaxRounds;
+        RoundCounter.innerText = Gamemode + 'Round ' + Round + '/' + MaxRounds;
         LoadNextRound();
     } else {
         EndGame();

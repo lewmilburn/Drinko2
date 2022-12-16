@@ -18,3 +18,4 @@ let Round = 0;
 let Level = 0;
 let NextQuestionID;
 let NextTypeID;
+let Gamemode;

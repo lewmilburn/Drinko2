@@ -3,7 +3,7 @@ function LoadGame(mode) {
     if (Object.keys(Players).length > 1) {
         Log('LoadGame','Mode selected: '+mode,3);
 
-        document.getElementById('ModeText').innerText = mode;
+        let Gamemode = mode;
 
         MaxRounds = document.getElementById('HomeSelectRounds').value;
         
