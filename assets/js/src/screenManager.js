@@ -61,9 +61,12 @@ function DisplayScreen(number) {
     if (number === 0) {
         screen.innerHTML = `
         <div class="mx-6 sm:mx-12 md:mx-24 lg:mx-48 my-6 sm:my-12 md:my-24 lg:my-48 text-center">
-            <h1 class="text-header-lg mb-6">
+            <h1 class="text-header-lg mb-2">
                 Drinko!²
             </h1>
+            <p class="text-body mb-6">
+                Loading...
+            </p>
             <img src="/assets/images/splash/lewismilburn-light.webp" class="hidden dark:block w-1/4 mx-auto mb-24">
             <img src="/assets/images/splash/lewismilburn-dark.webp" class="block dark:hidden w-1/4 mx-auto mb-24">
             <div class="flex space-x-4 mb-2">
