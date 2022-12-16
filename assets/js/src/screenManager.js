@@ -147,7 +147,7 @@ function DisplayScreen(number) {
                     WTF
                 </button>
                 <button class="btn-mode-select btn-red" onClick="LoadGame('Hardcore');">
-                    <span class="absolute top-1 right-1 text-white text-xs">15</span>
+                    <span class="absolute top-1 right-1 text-white text-xs">25</span>
                     Hardcore
                 </button>
             </div>

@@ -22,5 +22,65 @@
         "OptionTwoValue": 6,
         "CanSkip": false,
         "Mode": 1
+    },
+    "3": {
+        "Message": "Would you give a homeless person a blowjob for £1 million?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "4": {
+        "Message": "Would you rim a homeless person for £1 million?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "5": {
+        "Message": "Have you ever had gangbang fantasies?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "6": {
+        "Message": "Have you ever gotten drunk on your own?",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 5,
+        "OptionTwoValue": 2,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "7": {
+        "Message": "What's your worst sexual experience?",
+        "Submessage": "",
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
     }
 }

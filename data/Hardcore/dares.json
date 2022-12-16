@@ -156,14 +156,62 @@
         "Mode": 1
     },
     "14": {
-        "Message": "Flirt with {player} sensually.",
-        "Submessage": "If {player} finds it funny, drink 3 sips.",
-        "OptionOne": "They laughed",
-        "OptionTwo": "They didn't laugh",
+        "Message": "What's in {player}'s ass?",
+        "Submessage": "Did anyone laugh?",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
         "OptionOneColour": "green",
         "OptionTwoColour": "red",
         "OptionOneValue": 2,
-        "OptionTwoValue": 3,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "15": {
+        "Message": "Kiss someone of the same gender or drink",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "16": {
+        "Message": "Do 5 jumping jacks",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "17": {
+        "Message": "From now on you are the King/Queen.",
+        "Submessage": "Everyone must call you the King or Queen, otherwise they drink 3 sips.",
+        "OptionOne": "Ok, let's go!",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "18": {
+        "Message": "Choose another player to take a huge gulp of their drink.",
+        "Submessage": "",
+        "OptionOne": "Done!",
+        "OptionTwo": "Skip",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "blue",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 0,
         "CanSkip": false,
         "Mode": 1
     }
