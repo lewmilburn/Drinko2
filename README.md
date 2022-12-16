@@ -40,6 +40,14 @@ You'll also need to install TailwindCSS if you want to change the CSS.
 
 `npm install tailwindcss`
 
+We also recommend minifying JavaScript. You can use Minify to do this:
+
+`npm install minify`
+
+and run:
+
+`npx minify ./assets/js/src/screenManager.js > ./assets/js/screenManager.min.js`
+
 ## Debug mode
 To enable debug mode either modify the source code in logger.js or open the JavaScript console in the browser and type `Level = 3` for low-level logging or `Level = 4` for high-level logging.
 
