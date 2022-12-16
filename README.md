@@ -26,9 +26,19 @@ Just upload it to your server and you're ready to go!
 ## Modifying Drinko!2
 You can modify Drinko!2 as long as you follow the terms of the Apache 2.0 license.
 
-We use TailwindCSS for the CSS for Drinko!2
+We use TailwindCSS for the CSS for Drinko!2 and JetBrains Fleet for development.
 
-The build command is `npx tailwindcss -i ./assets/css/src.css -o ./assets/css/dist.css --minify`
+If you modify and classes for CSS you'll need to run `npx tailwindcss -i ./assets/css/src.css -o ./assets/css/dist.css --minify`
+for it to compile as CSS.
+
+## Additional Libraries
+If you're using JetBrains Fleet version 1.12 or below you'll need to install the Tailwind language server.
+
+`npm install -g @tailwindcss/language-server`
+
+You'll also need to install TailwindCSS if you want to change the CSS.
+
+`npm install tailwindcss`
 
 ## Debug mode
 To enable debug mode either modify the source code in logger.js or open the JavaScript console in the browser and type `Level = 3` for low-level logging or `Level = 4` for high-level logging.
