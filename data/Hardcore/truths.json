@@ -82,5 +82,17 @@
         "OptionTwoValue": 4,
         "CanSkip": false,
         "Mode": 1
+    },
+    "8": {
+        "Message": "What's your most contraversial opinion?",
+        "Submessage": "",
+        "OptionOne": "Answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
     }
 }
