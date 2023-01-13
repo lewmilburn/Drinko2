@@ -38,7 +38,7 @@ function NextRound() {
         RoundCounter.innerText = Gamemode + ' Round ' + Round;
         LoadNextRound();
     } else if (MaxRounds >= Round) {
-        RoundCounter.innerText = Gamemode + 'Round ' + Round + '/' + MaxRounds;
+        RoundCounter.innerText = Gamemode + ' Round ' + Round + '/' + MaxRounds;
         LoadNextRound();
     } else {
         EndGame();
