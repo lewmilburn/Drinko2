@@ -38,6 +38,9 @@ function NextRound() {
 
     let GamemodeText = document.getElementById('GamemodeText');
     GamemodeText.innerText = Gamemode;
+    if (GamemodeText.classList.contains('hidden')) {
+        GamemodeText.classList.remove('hidden');
+    }
 
     let RoundCounter = document.getElementById('RoundCounter');
     Round = Round + 1;
