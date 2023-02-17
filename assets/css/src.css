@@ -46,6 +46,9 @@
 .btn-blue {
     @apply bg-blue-500 hover:bg-blue-400
 }
+.btn-neutral {
+    @apply dark:bg-neutral-700 dark:hover:bg-neutral-600 bg-neutral-200 hover:bg-neutral-100;
+}
 
 /* Layouts */
 .game-buttons {
