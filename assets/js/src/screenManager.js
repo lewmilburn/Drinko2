@@ -126,7 +126,10 @@ function DisplayScreen(number) {
             </div>
             <ul id="HomePlayerList"></ul>
             <select id="HomeSelectRounds" class="input">
+                <option value="60">60 Rounds</option>
+                <option value="55">55 Rounds</option>
                 <option value="50">50 Rounds</option>
+                <option value="30">30 Rounds</option>
                 <option value="25" selected>25 Rounds</option>
                 <option value="15">15 Rounds</option>
                 <option value="10">10 Rounds</option>
