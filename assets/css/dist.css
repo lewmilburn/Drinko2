@@ -1266,6 +1266,10 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .w-1\/4 {
   width: 25%;
 }
