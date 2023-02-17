@@ -120,8 +120,8 @@ function DisplayScreen(number) {
             <p class="text-body mb-6">
                 Who's playing?
             </p>
-            <div class="mb-6">
-                <input id="HomeAddPlayer" class="input-lg" maxlength="10">
+            <div class="mb-6 flex w-full">
+                <input id="HomeAddPlayer" class="input-lg flex-grow" maxlength="10">
                 <button class="btn btn-blue" onClick="AddPlayer();">Add</button>
             </div>
             <ul id="HomePlayerList"></ul>
