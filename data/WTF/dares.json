@@ -274,5 +274,41 @@
         "OptionTwoValue": 5,
         "CanSkip": false,
         "Mode": 1
+    },
+    "24": {
+        "Message": "Tell us two truths and one lie about yourself.",
+        "Submessage": "If the majority can guess which is the lie, you drink!",
+        "OptionOne": "I tricked most people",
+        "OptionTwo": "Most people guessed it",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 0,
+        "OptionTwoValue": 8,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "25": {
+        "Message": "Pretend to be a food item of your choice.",
+        "Submessage": "Don't tell anyone what it is - if the group can guess what it is, you win!",
+        "OptionOne": "They guessed it",
+        "OptionTwo": "They couldn't figure it out",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 5,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "26": {
+        "Message": "Pole dance with an imaginary pole.",
+        "Submessage": "",
+        "OptionOne": "Gettin' my sexy on",
+        "OptionTwo": "No thanks",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 3,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Mode": 1
     }
 }

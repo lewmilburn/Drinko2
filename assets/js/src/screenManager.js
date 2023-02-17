@@ -143,7 +143,7 @@ function DisplayScreen(number) {
                     Dirty
                 </button>
                 <button class="btn-mode-select btn-red" onClick="LoadGame('WTF');">
-                    <span class="absolute top-1 right-1 text-white text-xs">27</span>
+                    <span class="absolute top-1 right-1 text-white text-xs">30</span>
                     WTF
                 </button>
                 <button class="btn-mode-select btn-red" onClick="LoadGame('Hardcore');">
