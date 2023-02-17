@@ -73,9 +73,9 @@ function GetRandomReplacePlayer() {
         let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
 
         if (Math.floor(Math.random() * 2) == 0) {
-            NextPlayer = GetUserLowestTurns();
+            NextSecondPlayer = GetUserLowestTurns();
         } else {
-            NextPlayer = Object.keys(Players)[PlayerID];
+            NextSecondPlayer = Object.keys(Players)[PlayerID];
         }
 
         if (NextSecondPlayer !== NextPlayer) {
