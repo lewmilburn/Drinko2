@@ -19,7 +19,7 @@ function AddPlayer() {
         else if (Player === '') { return; }
 
         if (List.innerHTML === null) {
-            List.innerHTML = '<p>' + Player + '</p>';
+            List.innerHTML = '<p>Players: </p><p>' + Player + '</p>';
         } else {
             List.innerHTML = List.innerHTML + '<p>' + Player + '</p>';
         }
