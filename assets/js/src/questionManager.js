@@ -46,7 +46,10 @@ function SetOption(id, value, colour) {
 function GetRandomQuestion() {
     Log('GetRandomQuestion','started',4);
 
-    NextSecondPlayer = GetRandomReplacePlayer();
+    NextSecondPlayer = undefined;
+    while (NextSecondPlayer !== undefined) {
+        NextSecondPlayer = GetRandomReplacePlayer();
+    }
 
     let Type = GetNextType();
     if (Type === 0) {
