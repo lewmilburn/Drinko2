@@ -1,5 +1,5 @@
 function PlayerScorePopupDelay(contents, delaycontents, timeoutOne, timeoutTwo) {
-    let PSP = document.getElementById('PlayerScorePopup');
+    let PSP = document.getElementById('InfoPopup');
     PSP.classList.remove('hidden');
     PSP.innerText = contents;
     setTimeout(function() {
@@ -28,6 +28,17 @@ function WarningPopup(funct, message) {
     setTimeout(function() {
         setTimeout(function() {
             WarningPopup.classList.add('hidden');
+            }, 3000);
+        }, 2000);
+}
+
+function InfoPopup(message) {
+    let InfoPopup = document.getElementById('InfoPopup');
+    InfoPopup.classList.remove('hidden');
+    InfoPopup.innerText = message;
+    setTimeout(function() {
+        setTimeout(function() {
+            InfoPopup.classList.add('hidden');
             }, 3000);
         }, 2000);
 }

@@ -16,7 +16,10 @@ function AddPlayer() {
     if (Object.keys(Players).length <= 15) {
         if (Player === '69') { alert('Nice ;)'); }
         else if (Player === '420') { alert('Blaze it!'); }
-        else if (Player === '') { return; }
+        else if (Player === '') {
+            InfoPopup("Please enter a player name.");
+            return;
+        }
 
         if (List.innerHTML === "") {
             List.innerHTML = '<p>Players:</p><p>' + Player + '</p>';
@@ -24,7 +27,7 @@ function AddPlayer() {
             List.innerHTML = List.innerHTML + '<p>' + Player + '</p>';
         }
     } else {
-        alert('You can\'t add any more players.');
+        InfoPopup("Sorry, you can't add any more players.");
     }
 
     Log('AddPlayer','ended',4);
@@ -98,7 +101,11 @@ function Replace(Subject,Replacement) {
     if (Subject !== null) {
         if (Subject.includes('{player}') === true) {
             Subject = Subject.replace('{player}', Replacement)
+        } else {
+            Log('Replace', 'Replace function called with nothing to replace.', 2);
         }
+    } else {
+        Log('Replace', 'Replace function called with no subject.', 2);
     }
 
     Log('Replace','ended',4);
