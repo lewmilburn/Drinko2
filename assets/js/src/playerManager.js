@@ -18,7 +18,7 @@ function AddPlayer() {
         else if (Player === '420') { alert('Blaze it!'); }
         else if (Player === '') { return; }
 
-        if (List.innerHTML === null) {
+        if (List.innerHTML === "") {
             List.innerHTML = '<p>Players:</p><p>' + Player + '</p>';
         } else {
             List.innerHTML = List.innerHTML + '<p>' + Player + '</p>';
