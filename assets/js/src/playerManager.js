@@ -19,9 +19,9 @@ function AddPlayer() {
         else if (Player === '') { return; }
 
         if (List.innerHTML === null) {
-            List.innerHTML = '<li>' + Player + '</li>';
+            List.innerHTML = '<p>' + Player + '</p>';
         } else {
-            List.innerHTML = List.innerHTML + '<li>' + Player + '</li>';
+            List.innerHTML = List.innerHTML + '<p>' + Player + '</p>';
         }
     } else {
         alert('You can\'t add any more players.');
