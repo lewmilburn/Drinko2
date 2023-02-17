@@ -33,13 +33,20 @@
 
     <div id="alert-error" class="bg-red-400 dark:bg-red-600 px-2 py-1 hidden"></div>
 
-        <nav id="nav" class="dark:bg-neutral-900 bg-neutral-200 flex px-2 py-1">
-            <div>
-                Drinko!²
+        <nav id="nav" class="grid grid-cols-3">
+            <div class="flex">
+                <p class="dark:bg-neutral-900 bg-neutral-200 flex px-2 py-1 shrink-0 rounded-br-md">Drinko!²</p>
+                <div class="flex-grow"></div>
             </div>
-            <div class="text-center flex-grow" id="GamemodeText">
+            <div class="flex">
+                <div class="flex-grow"></div>
+                <span class="text-center dark:bg-neutral-900 bg-neutral-200 flex px-2 py-1 shrink-0 rounded-b-md" id="GamemodeText"></span>
+                <div class="flex-grow"></div>
             </div>
-            <a href="/" class="hidden" id="ResetButton">Reset</a>
+            <div class="flex">
+                <div class="flex-grow"></div>
+                <a href="/" class="hidden dark:bg-neutral-900 bg-neutral-200 flex px-2 py-1 shrink-0 rounded-bl-md" id="ResetButton">Reset</a>
+            </div>
         </nav>
 
         <div class="absolute top-12 left-2 border-l-4 border-blue-500 bg-blue-300 text-black shadow-xl hidden text-body px-4 py-2" id="PlayerScorePopup"></div>
@@ -62,8 +69,9 @@
         </main>
 
         <footer id="footer">
-            <div class="progress fixed bottom-0 left-0 right-0 bg-blue-100 dark:bg-blue-900 hidden" id="ProgressBar">
-                <div class="bg-blue-500 rounded-r-md" id="ProgressBarValue" style="width: 0"><p class="text-center" id="RoundCounter"></p></div>
+            <div class="progress fixed relative bottom-0 left-0 right-0 bg-blue-100 dark:bg-blue-900 hidden" id="ProgressBar">
+                <div class="bg-blue-500 rounded-r-md" id="ProgressBarValue" style="width: 0"></div>
+                <p class="absolute top-0 bottom-0 left-0 right-0 text-center" id="RoundCounter"></p>
             </div>
         </footer>
 
