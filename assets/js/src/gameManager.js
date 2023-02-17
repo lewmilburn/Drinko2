@@ -4,12 +4,8 @@ function StartGame() {
     ShowScreen(6,3);
 
     for (let i=0; i <= Players.length; i++) {
-        console.log('FOR LOOP START');
         if (Object.keys(Players)[i] === undefined) {
             delete Players.undefined;
-            console.log('Deleting undefined');
-        } else {
-            console.log('Undefined not found');
         }
     }
 
