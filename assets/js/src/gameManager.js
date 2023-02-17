@@ -36,10 +36,12 @@ function EndGame() {
 function NextRound() {
     Log('NextRound','started',4);
 
-    let GamemodeText = document.getElementById('GamemodeText');
-    GamemodeText.innerText = Gamemode;
-    if (GamemodeText.classList.contains('hidden')) {
-        GamemodeText.classList.remove('hidden');
+    let Nav = document.getElementById('nav');
+    if (Nav.classList.contains('hidden')) {
+        Nav.classList.remove('hidden');
+
+        let GamemodeText = document.getElementById('GamemodeText');
+        GamemodeText.innerText = Gamemode;
     }
 
     let RoundCounter = document.getElementById('RoundCounter');
