@@ -11,14 +11,17 @@ function Log(funct, message, type) {
             Alert.innerHTML = 'Low debug mode is enabled. This is not recommended for production environments.'
         } else if (type === 2) {
             console.log('[Drinko!²][WARNING] ' + funct + '(): ' + message + '.');
+            WarningPopup(funct, message);
         } else if (type === 1) {
             console.log('[Drinko!²][ERROR] ' + funct + '(): ' + message + '.');
             Alert.classList.remove('hidden');
             Alert.innerHTML = 'Error: ' + message;
+            ErrorPopup(funct, message);
         } else if (type === 0) {
             console.log('[Drinko!²][FATAL] ' + funct + '(): ' + message + '.');
             Alert.classList.remove('hidden');
             Alert.innerHTML = 'Fatal Error: ' + message;
+            ErrorPopup(funct, message);
         }
     }
 }
