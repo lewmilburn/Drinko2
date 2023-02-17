@@ -120,11 +120,11 @@ function DisplayScreen(number) {
             <p class="text-body mb-6">
                 Who's playing?
             </p>
-            <div class="mb-2 flex space-x-4 w-full">
+            <div class="mb-4 flex space-x-4 w-full">
                 <input id="HomeAddPlayer" class="input-lg flex-grow" maxlength="10">
                 <button class="btn btn-blue" onClick="AddPlayer();">Add</button>
             </div>
-            <div id="HomePlayerList" class="text-body mb-2 flex space-x-4"></div>
+            <div id="HomePlayerList" class="text-body mb-4 flex flex-wrap space-x-4"></div>
             <select id="HomeSelectRounds" class="btn btn-neutral appearance-none">
                 <option value="60">60 Rounds</option>
                 <option value="55">55 Rounds</option>
