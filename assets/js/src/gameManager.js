@@ -37,7 +37,7 @@ function NextRound() {
     Log('NextRound','started',4);
 
     let GamemodeText = document.getElementById('GamemodeText');
-    RoundCounter.innerText = Gamemode;
+    GamemodeText.innerText = Gamemode;
 
     let RoundCounter = document.getElementById('RoundCounter');
     Round = Round + 1;
