@@ -16,7 +16,7 @@ function AddPlayer() {
     if (Object.keys(Players).length <= 15) {
         if (Player === '69') { alert('Nice ;)'); }
         else if (Player === '420') { alert('Blaze it!'); }
-        else if (Player === '' || Player === undefined) { return; }
+        else if (Player === '') { return; }
 
         if (List.innerHTML === null) {
             List.innerHTML = '<li>' + Player + '</li>';
@@ -43,13 +43,10 @@ function GetRandomPlayer() {
 
     let PlayerID = Math.floor(Math.random() * (Object.keys(Players).length));
 
-    NextPlayer = undefined;
-    while (NextPlayer !== undefined) {
-        if (Math.floor(Math.random() * 2) == 0) {
-            NextPlayer = GetUserLowestTurns();
-        } else {
-            NextPlayer = Object.keys(Players)[PlayerID];
-        }
+    if (Math.floor(Math.random() * 2) == 0) {
+        NextPlayer = GetUserLowestTurns();
+    } else {
+        NextPlayer = Object.keys(Players)[PlayerID];
     }
 
     Log('GetRandomPlayer','Selected: ' + NextPlayer,3);
@@ -59,12 +56,9 @@ function GetRandomPlayer() {
 function GetUserLowestTurns() {
     Log('GetUserLowestTurns','started',4);
 
-    let LowestUser = undefined;
-    while (LowestUser !== undefined) {
-        let LowestUser = Object.keys(Turns).find(key => Turns[key] === (Object.keys(Turns).reduce((acc, val) => {
-            return Math.min(acc, Turns[val]);
-            }, Infinity)));
-    }
+    let LowestUser = Object.keys(Turns).find(key => Turns[key] === (Object.keys(Turns).reduce((acc, val) => {
+        return Math.min(acc, Turns[val]);
+        }, Infinity)));
 
     Log('GetUserLowestTurns','Selected ' + LowestUser,3);
 
@@ -84,13 +78,11 @@ function GetRandomReplacePlayer() {
             NextPlayer = Object.keys(Players)[PlayerID];
         }
 
-        if (NextSecondPlayer === undefined || NextPlayer === undefined) {
-            if (NextSecondPlayer !== NextPlayer) {
-                Log('GetRandomReplacePlayer','Break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
-                break;
-            } else {
-                Log('GetRandomReplacePlayer','No break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
-            }
+        if (NextSecondPlayer !== NextPlayer) {
+            Log('GetRandomReplacePlayer','Break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
+            break;
+        } else {
+            Log('GetRandomReplacePlayer','No break RP: '+NextSecondPlayer+' - NP: '+NextPlayer,3);
         }
     }
 
