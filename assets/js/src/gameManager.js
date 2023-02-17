@@ -36,15 +36,17 @@ function EndGame() {
 function NextRound() {
     Log('NextRound','started',4);
 
-    let RoundCounter = document.getElementById('RoundCounter');
+    let GamemodeText = document.getElementById('GamemodeText');
+    RoundCounter.innerText = Gamemode;
 
+    let RoundCounter = document.getElementById('RoundCounter');
     Round = Round + 1;
 
     if (MaxRounds === '-1') {
-        RoundCounter.innerText = Gamemode + ' Round ' + Round;
+        RoundCounter.innerText = Round;
         LoadNextRound();
     } else if (MaxRounds >= Round) {
-        RoundCounter.innerText = Gamemode + ' Round ' + Round + '/' + MaxRounds;
+        RoundCounter.innerText = Round + '/' + MaxRounds;
         LoadNextRound();
     } else {
         EndGame();
