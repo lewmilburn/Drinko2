@@ -22,5 +22,29 @@
         "OptionTwoValue": 3,
         "CanSkip": false,
         "Mode": 1
+    },
+    "3": {
+        "Message": "If it would be legal, what would you do?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "4": {
+        "Message": "If you could make one thing illegal, what would it be?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 2,
+        "OptionTwoValue": 6,
+        "CanSkip": false,
+        "Mode": 1
     }
 }

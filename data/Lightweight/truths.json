@@ -298,5 +298,65 @@
         "OptionTwoValue": 0,
         "CanSkip": false,
         "Mode": 1
+    },
+    "26": {
+        "Message": "What's the most embarrassing thing you've ever done?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "27": {
+        "Message": "Have you ever broken the law? If so, why?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "28": {
+        "Message": "What's the worst date you've ever been on?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "29": {
+        "Message": "What's the best date you've ever been on?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
+    },
+    "30": {
+        "Message": "What’s the most childish thing you still do?",
+        "Submessage": "",
+        "OptionOne": "I've answered",
+        "OptionTwo": "Not answered",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 1,
+        "OptionTwoValue": 3,
+        "CanSkip": false,
+        "Mode": 1
     }
 }

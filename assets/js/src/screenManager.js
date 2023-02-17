@@ -136,14 +136,14 @@ function DisplayScreen(number) {
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
                 <button class="btn-mode-select btn-green" onClick="LoadGame('Lightweight');">
                     Lightweight
-                    <span class="absolute top-1 right-1 text-white text-xs">50</span>
+                    <span class="absolute top-1 right-1 text-white text-xs">55</span>
                 </button>
                 <button class="btn-mode-select btn-yellow" onClick="LoadGame('Dirty');">
-                    <span class="absolute top-1 right-1 text-white text-xs">50</span>
+                    <span class="absolute top-1 right-1 text-white text-xs">60</span>
                     Dirty
                 </button>
                 <button class="btn-mode-select btn-red" onClick="LoadGame('WTF');">
-                    <span class="absolute top-1 right-1 text-white text-xs">25</span>
+                    <span class="absolute top-1 right-1 text-white text-xs">27</span>
                     WTF
                 </button>
                 <button class="btn-mode-select btn-red" onClick="LoadGame('Hardcore');">
