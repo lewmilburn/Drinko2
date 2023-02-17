@@ -125,7 +125,7 @@ function DisplayScreen(number) {
                 <button class="btn btn-blue" onClick="AddPlayer();">Add</button>
             </div>
             <div id="HomePlayerList" class="text-body mb-2 flex space-x-4"></div>
-            <select id="HomeSelectRounds" class="btn btn-neutral">
+            <select id="HomeSelectRounds" class="btn btn-neutral appearance-none">
                 <option value="60">60 Rounds</option>
                 <option value="55">55 Rounds</option>
                 <option value="50">50 Rounds</option>
