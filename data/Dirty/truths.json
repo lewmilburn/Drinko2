@@ -235,7 +235,9 @@
         "OptionOneColour": "green",
         "OptionTwoColour": "blue",
         "OptionOneValue": 2,
-        "OptionTwoValue": 4
+        "OptionTwoValue": 4,
+        "CanSkip": false,
+        "Mode": 1
     },
     "21": {
         "Message": "Guess who was the last one to lose their virginity.",
