@@ -46,5 +46,17 @@
         "OptionTwoValue": 6,
         "CanSkip": false,
         "Mode": 1
+    },
+    "4": {
+        "Message": "Drink 7 sips if you've ever tested positive for an STI/STD.",
+        "Submessage": "",
+        "OptionOne": "Yes",
+        "OptionTwo": "No",
+        "OptionOneColour": "green",
+        "OptionTwoColour": "red",
+        "OptionOneValue": 7,
+        "OptionTwoValue": 2,
+        "CanSkip": true,
+        "Mode": 1
     }
 }
