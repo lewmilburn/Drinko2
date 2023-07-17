@@ -67,14 +67,14 @@ function DisplayScreen(number) {
             <p class="text-body mb-16">
                 <i class="fa-solid fa-loader fa-spin"></i> Loading...
             </p>
-            <img src="/assets/images/splash/lewismilburn-light.webp" class="hidden dark:block w-1/4 mx-auto mb-6">
-            <img src="/assets/images/splash/lewismilburn-dark.webp" class="block dark:hidden w-1/4 mx-auto mb-6">
+            <img src="/assets/images/splash/lewismilburn-light.webp" class="hidden dark:block w-1/4 mx-auto mb-6" alt="Created by Lewis Milburn">
+            <img src="/assets/images/splash/lewismilburn-dark.webp" class="block dark:hidden w-1/4 mx-auto mb-6" alt="Created by Lewis Milburn">
             <div class="flex space-x-4 mb-2">
                 <div class="flex-grow">&nbsp;</div>
-                <img src="/assets/images/splash/tailwind.webp" class="w-16 mb-2">
-                <img src="/assets/images/splash/fleet.webp" class="w-16 mb-2">
-                <img src="/assets/images/splash/github.webp" class="w-16 mb-2">
-                <img src="/assets/images/splash/cloudflare.webp" class="w-16 mb-2">
+                <img src="/assets/images/splash/tailwind.webp" class="w-16 mb-2" alt="Tailwind">
+                <img src="/assets/images/splash/fleet.webp" class="w-16 mb-2" alt="Fleet">
+                <img src="/assets/images/splash/github.webp" class="w-16 mb-2" alt="GitHub">
+                <img src="/assets/images/splash/cloudflare.webp" class="w-16 mb-2" alt="Cloudflare">
                 <div class="flex-grow">&nbsp;</div>
             </div>
             <p>
@@ -108,7 +108,7 @@ function DisplayScreen(number) {
             <button class="btn btn-green" onClick="ShowScreen(1,2);">
                 Let's go!
         </button>
-            <span class="absolute bottom-0 left-0">V2.2</span>
+            <span class="absolute bottom-0 left-0">V2.3</span>
             <a href="https://lewmilburn.github.io/Drinko" class="absolute bottom-0 right-0 text-center underline">Play the original Drinko!</a>
         </div>`;
     } else if (number === 2) {
