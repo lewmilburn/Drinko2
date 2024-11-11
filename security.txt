@@ -1,0 +1,3 @@
+Contact: mailto:support@pixelset.dev
+Expires: 2025-11-11T00:00:00Z
+Preferred-Languages: en
