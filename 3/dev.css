@@ -4,7 +4,7 @@
     font-family: 'Gilroy-ExtraBold';
     font-weight: 800;
     font-style: normal;
-    src: url('Gilroy-Extrabold.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/repalash/gilroy-free-webfont/refs/heads/master/Gilroy-Extrabold.ttf') format('truetype');
 }
 
 body {

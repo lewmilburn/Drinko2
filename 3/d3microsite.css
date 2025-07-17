@@ -1,5 +1,4 @@
 /*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
-@layer properties;
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -202,17 +201,8 @@
   .grid {
     display: grid;
   }
-  .table {
-    display: table;
-  }
   .h-screen {
     height: 100vh;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
   }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -222,10 +212,6 @@
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .bg-rose-500 {
     background-color: var(--color-rose-500);
@@ -252,10 +238,6 @@
   }
   .underline {
     text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .sm\:gap-10 {
     @media (width >= 40rem) {
@@ -318,7 +300,7 @@
   font-family: 'Gilroy-ExtraBold';
   font-weight: 800;
   font-style: normal;
-  src: url('Gilroy-Extrabold.ttf') format('truetype');
+  src: url('https://raw.githubusercontent.com/repalash/gilroy-free-webfont/refs/heads/master/Gilroy-Extrabold.ttf') format('truetype');
 }
 body {
   font-family: "Gilroy-ExtraBold", sans-serif;
@@ -388,23 +370,5 @@ main {
   }
   @media (prefers-color-scheme: dark) {
     background-color: var(--color-neutral-800);
-  }
-}
-@property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-@layer properties {
-  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
-    *, ::before, ::after, ::backdrop {
-      --tw-border-style: solid;
-      --tw-outline-style: solid;
-    }
   }
 }
