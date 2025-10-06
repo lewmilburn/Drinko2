@@ -1,3 +1,5 @@
+> ℹ️ Drinko!2 is no longer updated. Please see [Drinko!3](https://github.com/pixelsetdev/drinko3), developed by Pixelset.
+
 # Drinko!2
 The sequel to the much loved Drinko game.
 
